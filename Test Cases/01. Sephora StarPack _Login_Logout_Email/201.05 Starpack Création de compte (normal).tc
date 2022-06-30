@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>201.05 Starpack Création de compte (normal)</name>
+   <tag></tag>
+   <comment>SCENARIO : User has the rights to see Usermanagement</comment>
+   <testCaseGuid>73e10416-137d-460c-979e-4d3d4f926edb</testCaseGuid>
+</TestCaseEntity>

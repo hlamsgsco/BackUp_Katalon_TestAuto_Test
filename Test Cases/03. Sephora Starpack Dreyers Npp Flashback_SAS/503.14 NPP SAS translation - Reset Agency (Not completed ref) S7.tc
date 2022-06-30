@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>503.14 NPP SAS translation - Reset Agency (Not completed ref) S7</name>
+   <tag></tag>
+   <comment>On the modify project page : Fill in all field</comment>
+   <testCaseGuid>c04f03e0-f47b-45e2-9153-b9bfcb0a1230</testCaseGuid>
+</TestCaseEntity>

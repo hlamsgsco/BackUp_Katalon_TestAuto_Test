@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>506.02 NPP Partial submission (backup filtered group) P1 (507.07)</name>
+   <tag></tag>
+   <comment>On the modify project page : Fill in all field</comment>
+   <testCaseGuid>9b99e861-8c49-4c0d-bd69-ea500f3d7b17</testCaseGuid>
+</TestCaseEntity>

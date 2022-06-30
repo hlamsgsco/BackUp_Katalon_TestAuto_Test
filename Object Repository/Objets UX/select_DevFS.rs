@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DevFS</name>
+   <tag></tag>
+   <elementGuidId>3dbe760a-802d-4640-b399-1fb8c8a66e7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='selSource_23']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#selSource_23</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'selSource_23' and @id = 'selSource_23' and (text() = '
+            Anaïs BONNINAnais MekrezAnne MERCKLINGAURELIE GOUDARDAurelie TranCamille VANUXEMCeline Gazagned evfsEdwige GourtayEL MOURARI RajaFlorence FABREJeanne VaillantJulie PECRIAUXJulien COLLIGNONLaetitia DUBOISLaura Valentlaurence LE MIERELORRAINE DENOISMaryse THEBAULTMylene LavorelNathalie Da Silva VieiraOdile LaurentPauline GrabowskiPauline Parissdevfs devfsVanina PAGANELLIVirginie GAIGNARDWhitney Houelche
+        ' or . = '
+            Anaïs BONNINAnais MekrezAnne MERCKLINGAURELIE GOUDARDAurelie TranCamille VANUXEMCeline Gazagned evfsEdwige GourtayEL MOURARI RajaFlorence FABREJeanne VaillantJulie PECRIAUXJulien COLLIGNONLaetitia DUBOISLaura Valentlaurence LE MIERELORRAINE DENOISMaryse THEBAULTMylene LavorelNathalie Da Silva VieiraOdile LaurentPauline GrabowskiPauline Parissdevfs devfsVanina PAGANELLIVirginie GAIGNARDWhitney Houelche
+        ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>selSource_23</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selSource_23</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>multiple</name>
+      <type>Main</type>
+      <value>multiple</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Anaïs BONNINAnais MekrezAnne MERCKLINGAURELIE GOUDARDAurelie TranCamille VANUXEMCeline Gazagned evfsEdwige GourtayEL MOURARI RajaFlorence FABREJeanne VaillantJulie PECRIAUXJulien COLLIGNONLaetitia DUBOISLaura Valentlaurence LE MIERELORRAINE DENOISMaryse THEBAULTMylene LavorelNathalie Da Silva VieiraOdile LaurentPauline GrabowskiPauline Parissdevfs devfsVanina PAGANELLIVirginie GAIGNARDWhitney Houelche
+        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selSource_23&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='selSource_23']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='ModifFiche']/div[2]/div[2]/div[3]/div[2]/div[2]/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Devt FS'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove all'])[2]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add all'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>

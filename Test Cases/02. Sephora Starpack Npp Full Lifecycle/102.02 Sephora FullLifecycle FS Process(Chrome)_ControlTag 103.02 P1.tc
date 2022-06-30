@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>102.02 Sephora FullLifecycle FS Process(Chrome)_ControlTag 103.02 P1</name>
+   <tag></tag>
+   <comment>User atran: modify the following fields:
+Upload doc</comment>
+   <testCaseGuid>a4cb658b-1b0e-4853-b3ef-bb201209ccb8</testCaseGuid>
+</TestCaseEntity>

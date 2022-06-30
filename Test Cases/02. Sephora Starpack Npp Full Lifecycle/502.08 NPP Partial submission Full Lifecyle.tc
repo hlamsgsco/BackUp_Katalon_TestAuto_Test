@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>502.08 NPP Partial submission Full Lifecyle</name>
+   <tag></tag>
+   <comment>On the modify project page : Fill in all field</comment>
+   <testCaseGuid>0518825b-2ff9-476b-9b58-b487daf32bbc</testCaseGuid>
+</TestCaseEntity>

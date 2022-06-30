@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Marketing</name>
+   <tag></tag>
+   <elementGuidId>4b0de815-ce79-46eb-8c30-55b2088a343e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='selSource_21']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#selSource_21</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'selSource_21' and @id = 'selSource_21' and (text() = '
+            Albane DURINAlexandra LopezAlice ChevalierAmelie LisnardAndréa GuimardAnouck ToulemondeAudrey SAINT MARTINCapucine DeSaintLegerCaroline JaillardCharlotte PARIS DE BOLLARDIERECharlotte SabatierChloe PAOLINIClaire BAILLEUX DE MARISYCyrielle  DELUBAC Diane WHARTONDORSAF GARBAAEléna GrouleaudEllena TESSOREEmeline GALLIEREmeline MARQUISEugenie ZeimetEva DemoniereGaelle BricaudGaelle CARRATALAHéloise HenniauxHUYNH CharlotteImane BOUTFOUSTInes ARFAOUIInès ErrajaJade BouzidJulia ELBAZJulie ChauveauKétia LUYINDULALaetitia COVILLELaura GONCALVESLaura IRATCHETLéo GIVANOVITCHLINDSEY AIELLOm arketingMaina MadecManon DAUSSANManon VasseurMarie TissierMarion MICHIELSMélanie CIBLACMichela PalaMolika CHAUMORIN LeaNatalia KUZNETSOVANora RahmouniPASCAL MarionRekhanie SENARATNERémi DelrueSabine CASALIS MARCHANSandra PICCIARELLISawra HADDADASientje WERNERsmarketing marketingSolène RouillardSonia AliliSophie AKHNAKSophie QuessartStéphanie Chaguet testmarketingTania KARIMZADEHTiphaine GUILBERTTyana ATHARVictoria AgopogluZineb Al
+        ' or . = '
+            Albane DURINAlexandra LopezAlice ChevalierAmelie LisnardAndréa GuimardAnouck ToulemondeAudrey SAINT MARTINCapucine DeSaintLegerCaroline JaillardCharlotte PARIS DE BOLLARDIERECharlotte SabatierChloe PAOLINIClaire BAILLEUX DE MARISYCyrielle  DELUBAC Diane WHARTONDORSAF GARBAAEléna GrouleaudEllena TESSOREEmeline GALLIEREmeline MARQUISEugenie ZeimetEva DemoniereGaelle BricaudGaelle CARRATALAHéloise HenniauxHUYNH CharlotteImane BOUTFOUSTInes ARFAOUIInès ErrajaJade BouzidJulia ELBAZJulie ChauveauKétia LUYINDULALaetitia COVILLELaura GONCALVESLaura IRATCHETLéo GIVANOVITCHLINDSEY AIELLOm arketingMaina MadecManon DAUSSANManon VasseurMarie TissierMarion MICHIELSMélanie CIBLACMichela PalaMolika CHAUMORIN LeaNatalia KUZNETSOVANora RahmouniPASCAL MarionRekhanie SENARATNERémi DelrueSabine CASALIS MARCHANSandra PICCIARELLISawra HADDADASientje WERNERsmarketing marketingSolène RouillardSonia AliliSophie AKHNAKSophie QuessartStéphanie Chaguet testmarketingTania KARIMZADEHTiphaine GUILBERTTyana ATHARVictoria AgopogluZineb Al
+        ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>selSource_21</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selSource_21</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>multiple</name>
+      <type>Main</type>
+      <value>multiple</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Albane DURINAlexandra LopezAlice ChevalierAmelie LisnardAndréa GuimardAnouck ToulemondeAudrey SAINT MARTINCapucine DeSaintLegerCaroline JaillardCharlotte PARIS DE BOLLARDIERECharlotte SabatierChloe PAOLINIClaire BAILLEUX DE MARISYCyrielle  DELUBAC Diane WHARTONDORSAF GARBAAEléna GrouleaudEllena TESSOREEmeline GALLIEREmeline MARQUISEugenie ZeimetEva DemoniereGaelle BricaudGaelle CARRATALAHéloise HenniauxHUYNH CharlotteImane BOUTFOUSTInes ARFAOUIInès ErrajaJade BouzidJulia ELBAZJulie ChauveauKétia LUYINDULALaetitia COVILLELaura GONCALVESLaura IRATCHETLéo GIVANOVITCHLINDSEY AIELLOm arketingMaina MadecManon DAUSSANManon VasseurMarie TissierMarion MICHIELSMélanie CIBLACMichela PalaMolika CHAUMORIN LeaNatalia KUZNETSOVANora RahmouniPASCAL MarionRekhanie SENARATNERémi DelrueSabine CASALIS MARCHANSandra PICCIARELLISawra HADDADASientje WERNERsmarketing marketingSolène RouillardSonia AliliSophie AKHNAKSophie QuessartStéphanie Chaguet testmarketingTania KARIMZADEHTiphaine GUILBERTTyana ATHARVictoria AgopogluZineb Al
+        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selSource_21&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='selSource_21']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='ModifFiche']/div[2]/div[2]/div[3]/div[2]/div[3]/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketing'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove all'])[3]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[4]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add all'])[4]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_d_avatar-circle-small</name>
+   <tag></tag>
+   <elementGuidId>527797c6-08bf-4984-a5f4-2b4b9c58ed70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_header']/div/div[2]/div[2]/div/div/span/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/Mediabox-independence/MDB_img/client/REL_SEPHORA/avatar/avatar_default.jpg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.avatar-circle-small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Mediabox-independence/MDB_img/client/REL_SEPHORA/avatar/avatar_default.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar-circle-small</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_header&quot;)/div[@class=&quot;container-fluid d-flex align-items-stretch justify-content-between&quot;]/div[@class=&quot;topbar&quot;]/div[@class=&quot;dropdown&quot;]/div[@class=&quot;topbar-item&quot;]/div[@class=&quot;btn btn-icon w-auto btn-clean d-flex align-items-center px-3&quot;]/span[@class=&quot;svg-icon menu-icon svg-icon-xl&quot;]/img[@class=&quot;avatar-circle-small&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_header']/div/div[2]/div[2]/div/div/span/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/img</value>
+   </webElementXpaths>
+</WebElementEntity>

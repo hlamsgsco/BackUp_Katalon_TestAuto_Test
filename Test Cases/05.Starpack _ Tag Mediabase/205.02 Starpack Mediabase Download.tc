@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>205.02 Starpack Mediabase Download</name>
+   <tag></tag>
+   <comment>Verify that the download button is not clickable</comment>
+   <testCaseGuid>da3a888e-e050-4b95-a528-df255606a333</testCaseGuid>
+</TestCaseEntity>

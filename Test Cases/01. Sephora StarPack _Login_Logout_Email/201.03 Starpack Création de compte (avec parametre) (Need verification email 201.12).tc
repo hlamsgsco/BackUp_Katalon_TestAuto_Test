@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>201.03 Starpack Création de compte (avec parametre) (Need verification email 201.12)</name>
+   <tag></tag>
+   <comment>Verify Roles data</comment>
+   <testCaseGuid>d7b9c23a-9c34-4b16-bae1-b8349f6e7066</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>304.03 Tag Existing Project Empty Group Filtered group (one of the field is empty _ no error)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f78df2d5-04aa-40eb-bb1e-ce5c9c33ad04</testCaseGuid>
+</TestCaseEntity>

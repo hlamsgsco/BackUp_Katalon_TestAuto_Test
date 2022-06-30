@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220620_121342</name>
+   <tag></tag>
+   <displayName>20220620_121342</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220620_121342/z01. Test Suites/202. TestStarPack Full Lifecycle _Change of Rights_SAS/20220620_121343</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/01. TSC - Chrome/202. TestStarPack Full Lifecycle _Change of Rights_SAS (TSC)</testSuiteCollectionId>
+</ReportCollectionEntity>

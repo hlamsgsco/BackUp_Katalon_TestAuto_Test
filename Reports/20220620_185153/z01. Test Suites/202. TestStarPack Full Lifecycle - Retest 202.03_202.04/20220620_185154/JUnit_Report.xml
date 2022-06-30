@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="202. TestStarPack Full Lifecycle - Retest 202.03_202.04" time="930.327" tests="2" failures="0" errors="0">
+   <testsuite name="202. TestStarPack Full Lifecycle - Retest 202.03_202.04" tests="2" failures="0" errors="0" time="930.327" skipped="0" timestamp="2022-06-20 18:52:03" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/z01. Test Suites/202. TestStarPack Full Lifecycle - Retest 202.03_202.04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743942783.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743948259.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743954772.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743970651.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743991534.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744004119.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744043060.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744045837.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744067053.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744108779.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744177472.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744231768.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744299776.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744372755.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744415330.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744438750.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744459699.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744493226.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744513810.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744586016.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744635989.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744660358.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744710771.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744730560.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744732539.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744733006.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744741634.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744746842.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744749014.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744757852.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744769644.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744790682.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744850011.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="996f58cbc2e59da8d5333e43d035f5a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles" time="766.165" classname="Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles" status="PASSED">
+         <system-out><![CDATA[2022-06-20 18:52:04 - [TEST_CASE][PASSED] - Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles: Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-20 18:52:05 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-20 18:52:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-20 18:52:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-20 18:52:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-20 18:52:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-20 18:52:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-20 18:52:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-20 18:52:13 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-20 18:52:13 - [TEST_STEP][PASSED] - I.Login_password("adelamatanieves", password_adelamatanieves): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:52:14 - [MESSAGE][PASSED] - Text 'adelamatanieves' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:52:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:16 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:52:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:52:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:52:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743942783.png]]
+
+2022-06-20 18:52:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div[1]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:52:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:52:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743948259.png]]
+
+2022-06-20 18:52:28 - [TEST_STEP][PASSED] - project_name0 = "TC4.02_AutoTest_Chrome_Starpack_" + RandomStringUtils.randomAlphanumeric(10) + "_" + I.gettimedate(): null
+
+2022-06-20 18:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("HL Full Lifecycle/4 CreateProjPage_inputProjectname"), project_name0): Text 'TC4.02_AutoTest_Chrome_Starpack_74o9ad2Is8_juin202022_185228' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-20 18:52:29 - [MESSAGE][PASSED] - Text 'TC4.02_AutoTest_Chrome_Starpack_74o9ad2Is8_juin202022_185228' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-20 18:52:29 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton")): Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-20 18:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-20 18:52:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:52:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743954772.png]]
+
+2022-06-20 18:52:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_98"]), "122", false): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:35 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-20 18:52:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:52:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_9"]), "amartin_arbol", false): All options with value 'amartin_arbol' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:38 - [MESSAGE][PASSED] - All options with value 'amartin_arbol' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_10"]), "aterreshernandez", false): All options with value 'aterreshernandez' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:39 - [MESSAGE][PASSED] - All options with value 'aterreshernandez' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)"), "nalonsobermejo", true): All options with value 'nalonsobermejo' are selected in object 'Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)'  using regular expression
+
+2022-06-20 18:52:40 - [MESSAGE][PASSED] - All options with value 'nalonsobermejo' are selected in object 'Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)'  using regular expression
+
+2022-06-20 18:52:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF")): Object: 'Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF' is clicked on
+
+2022-06-20 18:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF' is clicked on
+
+2022-06-20 18:52:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_15"]), "292", false): All options with value '292' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:44 - [MESSAGE][PASSED] - All options with value '292' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_26"]), "94", false): All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:45 - [MESSAGE][PASSED] - All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_12"]), "94", false): All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:46 - [MESSAGE][PASSED] - All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_27"]), "734", false): All options with value '734' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:48 - [MESSAGE][PASSED] - All options with value '734' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_71"]), "efood", false): All options with value 'efood' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:49 - [MESSAGE][PASSED] - All options with value 'efood' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:52:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:52:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:52:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:52:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743970651.png]]
+
+2022-06-20 18:52:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-20 18:52:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:52:56 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-20 18:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-20 18:53:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-20 18:53:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:53:02 - [TEST_STEP][PASSED] - Project_No = I.ProjectNo(): Current window's url is: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTEST_STARPACK%21PRZ3E5Q4FJ2OWQ88M9KNRAVZ4UDIE7U7C0DWBRMH&default_action=AfficheFichesProjet&id_project=MI000970'
+
+2022-06-20 18:53:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:53:07 - [MESSAGE][PASSED] - Current window's url is: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTEST_STARPACK%21PRZ3E5Q4FJ2OWQ88M9KNRAVZ4UDIE7U7C0DWBRMH&default_action=AfficheFichesProjet&id_project=MI000970'
+
+2022-06-20 18:53:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-20 18:53:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:53:09 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPage_createrefbutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-20 18:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-20 18:53:09 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPaga_Create a component_button")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-20 18:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-20 18:53:11 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-06-20 18:53:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 18:53:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:53:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655743991534.png]]
+
+2022-06-20 18:53:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"ref_type"]), "6", false): All options with value '6' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:13 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:13 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-20 18:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-20 18:53:18 - [TEST_STEP][PASSED] - refID = I.RefID(): Current window's url is: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTEST_STARPACK%21PRZ3E5Q4FJ2OWQ88M9KNRAVZ4UDIE7U7C0DWBRMH&default_action=ModifierRef&id_project=MI000970&id_ref=5937&action_from=create_ref'
+
+2022-06-20 18:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:53:23 - [MESSAGE][PASSED] - Current window's url is: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTEST_STARPACK%21PRZ3E5Q4FJ2OWQ88M9KNRAVZ4UDIE7U7C0DWBRMH&default_action=ModifierRef&id_project=MI000970&id_ref=5937&action_from=create_ref'
+
+2022-06-20 18:53:23 - [TEST_STEP][PASSED] - out.println(refID): null
+
+2022-06-20 18:53:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:53:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744004119.png]]
+
+2022-06-20 18:53:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_28"]), "209293"): Keys '209293' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:24 - [MESSAGE][PASSED] - Keys '209293' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_30"]), "test Submarca"): Keys 'test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:25 - [MESSAGE][PASSED] - Keys 'test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_31"]), "test Submarca Vínculo con bulto: test Submarca"): Keys 'test Submarca Vínculo con bulto: test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:25 - [MESSAGE][PASSED] - Keys 'test Submarca Vínculo con bulto: test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_38"]), "24", false): All options with value '24' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:26 - [MESSAGE][PASSED] - All options with value '24' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_39"]), "8480017155061"): Keys '8480017155061' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:26 - [MESSAGE][PASSED] - Keys '8480017155061' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 18:53:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_19"]), "22", false): All options with value '22' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:27 - [MESSAGE][PASSED] - All options with value '22' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xxx Todelete/2.01 ModifyRef_Pais")): Object: 'Object Repository/xxx Todelete/2.01 ModifyRef_Pais' is clicked on
+
+2022-06-20 18:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/2.01 ModifyRef_Pais' is clicked on
+
+2022-06-20 18:53:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_75"]), "26", false): All options with value '26' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:28 - [MESSAGE][PASSED] - All options with value '26' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-20 18:53:28 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/7 ModifyRefPage_button_Save")): Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-20 18:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-20 18:53:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[10]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.031 RefPg_AnnaSubmit", ["id":"1"])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.031 RefPg_AnnaSubmit' is clicked on
+
+2022-06-20 18:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.031 RefPg_AnnaSubmit' is clicked on
+
+2022-06-20 18:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.03 Block anna")): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.03 Block anna' is clicked on
+
+2022-06-20 18:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.03 Block anna' is clicked on
+
+2022-06-20 18:53:53 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.041 Field daughter (NO)", ["id":"1"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.041 Field daughter (NO)", ["id":"2"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.041 Field daughter (NO)", ["id":"3"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:53:53 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-20 18:53:54 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-20 18:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/2.05 RefPg_submit")): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.05 RefPg_submit' is clicked on
+
+2022-06-20 18:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/2.05 RefPg_submit' is clicked on
+
+2022-06-20 18:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-20 18:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:54:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:54:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744043060.png]]
+
+2022-06-20 18:54:03 - [TEST_STEP][PASSED] - color1 = getCSSValue(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[10]/a[2]"]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 18:54:03 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 18:54:03 - [TEST_STEP][PASSED] - I.print(color1): null
+
+2022-06-20 18:54:03 - [TEST_STEP][PASSED] - while (color1 == "rgba(255, 255, 255, 1)"): null
+
+2022-06-20 18:54:03 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[10]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:54:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:54:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744045837.png]]
+
+2022-06-20 18:54:06 - [TEST_STEP][PASSED] - I.UploadDoc_sendkey_Prod(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/input[2]"]), "D:\Upoad_File\Upload doc\testdataaddition1.jpg", "testdataaddition1.jpg"): Delayed 5 second(s)
+
+2022-06-20 18:54:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-20 18:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:54:11 - [MESSAGE][PASSED] - File 'D:\Upoad_File\Upload doc\testdataaddition1.jpg' sent to object: 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:54:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:54:16 - [MESSAGE][PASSED] - Text 'testdataaddition1.jpg' is present on page 
+
+2022-06-20 18:54:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:54:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:54:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:54:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744067053.png]]
+
+2022-06-20 18:54:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-20 18:54:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 18:54:37 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:54:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 18:54:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-20 18:54:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:54:50 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[10]/a[2]"]), 10, OPTIONAL)): null
+
+2022-06-20 18:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-20 18:54:50 - [TEST_STEP][PASSED] - color1 = getCSSValue(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[10]/a[2]"]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(54, 153, 255, 1)'.
+
+2022-06-20 18:54:51 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(54, 153, 255, 1)'.
+
+2022-06-20 18:54:51 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 18:54:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:54:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:55:01 - [TEST_STEP][PASSED] - I.Login_password("aterreshernandez", password_aterreshernandez): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:02 - [MESSAGE][PASSED] - Text 'aterreshernandez' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:55:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:55:03 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:55:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:55:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744108779.png]]
+
+2022-06-20 18:55:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:55:12 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("1. Constant/xpath", ["xpath":"//*[@id="form_filters"]/div[7]/button"])): Delayed 5 second(s)
+
+2022-06-20 18:55:12 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:55:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:55:24 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:55:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-20 18:55:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:55:31 - [TEST_STEP][PASSED] - I.AWF_approve_view(): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:55:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 18:55:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 18:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 18:55:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 18:55:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 18:55:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:56:00 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 18:56:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:56:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:56:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:56:11 - [TEST_STEP][PASSED] - I.Login_password("aherms", password_aherms): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:56:12 - [MESSAGE][PASSED] - Text 'aherms' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:56:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:13 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:56:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:56:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:56:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744177472.png]]
+
+2022-06-20 18:56:17 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:56:26 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("HL Full Lifecycle/9 Filter_Button_Apply")): Delayed 5 second(s)
+
+2022-06-20 18:56:28 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:56:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/9 Filter_Button_Apply' is clicked on
+
+2022-06-20 18:56:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:56:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.07 Agency1 id_refID_td8", ["refID":"source_" + refID])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.07 Agency1 id_refID_td8' is clicked on
+
+2022-06-20 18:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.07 Agency1 id_refID_td8' is clicked on
+
+2022-06-20 18:56:44 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-06-20 18:56:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 18:56:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/HL Full Lifecycle/Function_access Viewer2")): Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 18:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 18:56:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:56:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HL Full Lifecycle/Function_access Viewer2")): Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 18:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 18:56:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:56:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:47 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/Function_AppButton")): Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 18:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 18:56:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:56:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:49 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/xpath", ["xpath":"//*[@id="approvePermButton"]"])): Object: 'Object Repository/xxx Todelete/xpath' is clicked on
+
+2022-06-20 18:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/xpath' is clicked on
+
+2022-06-20 18:56:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 18:56:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:56:55 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 18:56:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:57:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:57:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:57:06 - [TEST_STEP][PASSED] - I.Login_password("amartin_arbol", password_amartin_arbol): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:57:06 - [MESSAGE][PASSED] - Text 'amartin_arbol' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:57:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:57:07 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:57:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:57:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:57:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744231768.png]]
+
+2022-06-20 18:57:12 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:57:14 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("HL Full Lifecycle/9 Filter_Button_Apply")): Delayed 5 second(s)
+
+2022-06-20 18:57:15 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:57:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/9 Filter_Button_Apply' is clicked on
+
+2022-06-20 18:57:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:57:27 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 18:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 18:57:31 - [TEST_STEP][PASSED] - I.AWF_approve_view(): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:57:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 18:57:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 18:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 18:57:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 18:57:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 18:57:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:58:01 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 18:58:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:12 - [TEST_STEP][PASSED] - I.Login_password("aterreshernandez", password_aterreshernandez): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:12 - [MESSAGE][PASSED] - Text 'aterreshernandez' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:58:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:58:14 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:58:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:58:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744299776.png]]
+
+2022-06-20 18:58:20 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:58:24 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("1. Constant/xpath", ["xpath":"//*[@id="form_filters"]/div[7]/button"])): Delayed 5 second(s)
+
+2022-06-20 18:58:25 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:58:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:58:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:58:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-20 18:58:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:43 - [TEST_STEP][PASSED] - I.AWF_approve_view(): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:58:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 18:58:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 18:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 18:58:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 18:59:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 18:59:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 18:59:12 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 18:59:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:59:23 - [TEST_STEP][PASSED] - I.Login_password("agluszczynska", password_agluszczynska): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:24 - [MESSAGE][PASSED] - Text 'agluszczynska' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:59:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:59:25 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:59:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 18:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 18:59:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744372755.png]]
+
+2022-06-20 18:59:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 18:59:36 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("HL Full Lifecycle/9 Filter_Button_Apply")): Delayed 5 second(s)
+
+2022-06-20 18:59:36 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:59:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 18:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/9 Filter_Button_Apply' is clicked on
+
+2022-06-20 18:59:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 18:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 18:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 18:59:49 - [TEST_STEP][PASSED] - I.UploadDoc_sendkey_field("//*[@id="var_25"]", "D:\Upoad_File\Upload doc\testdata1.pdf", "testdata1"): Text 'testdata1' is present on page 
+
+2022-06-20 18:59:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-20 18:59:51 - [MESSAGE][PASSED] - Keys 'D:\Upoad_File\Upload doc\testdata1.pdf' sent to object: 'Object Repository/1. Constant/xpath'
+
+2022-06-20 18:59:51 - [MESSAGE][PASSED] - Text 'testdata1' is present on page 
+
+2022-06-20 18:59:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 18:59:58 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 19:00:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:00:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:00:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:00:10 - [TEST_STEP][PASSED] - I.Login_password("aherms", password_aherms): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:00:10 - [MESSAGE][PASSED] - Text 'aherms' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:00:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:00:11 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:00:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:00:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:00:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744415330.png]]
+
+2022-06-20 19:00:15 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:00:23 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("HL Full Lifecycle/9 Filter_Button_Apply")): Delayed 5 second(s)
+
+2022-06-20 19:00:23 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:00:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/9 Filter_Button_Apply' is clicked on
+
+2022-06-20 19:00:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:00:36 - [TEST_STEP][PASSED] - color2 = getCSSValue(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 19:00:36 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 19:00:36 - [TEST_STEP][PASSED] - I.print(color2): null
+
+2022-06-20 19:00:36 - [TEST_STEP][PASSED] - while (color2 == "rgba(255, 255, 255, 1)"): null
+
+2022-06-20 19:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 19:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 19:00:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:00:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744438750.png]]
+
+2022-06-20 19:00:39 - [TEST_STEP][PASSED] - I.UploadDoc_sendkey_Prod(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/input[2]"]), "D:\Upoad_File\Upload doc\testdataaddition1.jpg", "testdataaddition1.jpg"): Delayed 5 second(s)
+
+2022-06-20 19:00:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-20 19:00:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:00:44 - [MESSAGE][PASSED] - File 'D:\Upoad_File\Upload doc\testdataaddition1.jpg' sent to object: 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:00:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:00:49 - [MESSAGE][PASSED] - Text 'testdataaddition1.jpg' is present on page 
+
+2022-06-20 19:00:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:00:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:00:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:01:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744459699.png]]
+
+2022-06-20 19:01:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-20 19:01:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 19:01:10 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 19:01:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 19:01:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-20 19:01:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:01:22 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID]), 10, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' located by '//*[@id="source_5937"]/td[9]/a[2] ' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' located by '//*[@id="source_5937"]/td[9]/a[2] ' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at 202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles.run(202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles:508)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655743914395.run(TempTestSuite1655743914395.groovy:36)
+)
+
+2022-06-20 19:01:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="source_5937"]/td[9]/a[2] '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-20 19:01:33 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' located by '//*[@id="source_5937"]/td[9]/a[2] ' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' located by '//*[@id="source_5937"]/td[9]/a[2] ' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at 202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles.run(202.04 TestStarPack Full Lifecycle - AWIS (Chrome)_Sans_Ref_filles:508)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655743914395.run(TempTestSuite1655743914395.groovy:36)
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744493226.png]]
+
+2022-06-20 19:01:33 - [TEST_STEP][PASSED] - else: null
+
+2022-06-20 19:01:33 - [TEST_STEP][PASSED] - color2 = "white": null
+
+2022-06-20 19:01:33 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 19:01:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:01:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:01:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:01:46 - [TEST_STEP][PASSED] - I.Login_password("aterreshernandez", password_aterreshernandez): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:01:46 - [MESSAGE][PASSED] - Text 'aterreshernandez' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:01:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:01:48 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:01:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:01:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:01:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744513810.png]]
+
+2022-06-20 19:01:54 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:01:58 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("1. Constant/xpath", ["xpath":"//*[@id="form_filters"]/div[7]/button"])): Delayed 5 second(s)
+
+2022-06-20 19:01:59 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:02:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:02:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:02:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:02:16 - [TEST_STEP][PASSED] - I.AWF_approve_view(): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 19:02:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-20 19:02:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 19:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 19:02:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 19:02:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 19:02:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 19:02:49 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 19:02:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:02:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:03:00 - [TEST_STEP][PASSED] - I.Login_password("aherms", password_aherms): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:00 - [MESSAGE][PASSED] - Text 'aherms' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:03:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:03:02 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:03:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:03:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744586016.png]]
+
+2022-06-20 19:03:06 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:03:14 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("HL Full Lifecycle/9 Filter_Button_Apply")): Delayed 5 second(s)
+
+2022-06-20 19:03:14 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:03:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/9 Filter_Button_Apply' is clicked on
+
+2022-06-20 19:03:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2", ["refID":"source_" + refID])): Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 19:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/StarPack - Full Lifecycle (AWIS)/5.04 Agency1 id_refID_td9_a2' is clicked on
+
+2022-06-20 19:03:29 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_48"]), "Número de seguimiento del envío de la muestra de packagingmandatory"): Text 'Número de seguimiento del envío de la muestra de packagingmandatory' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 19:03:30 - [MESSAGE][PASSED] - Text 'Número de seguimiento del envío de la muestra de packagingmandatory' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-20 19:03:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:36 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-20 19:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:03:48 - [TEST_STEP][PASSED] - I.Login_password("aterreshernandez", password_aterreshernandez): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:48 - [MESSAGE][PASSED] - Text 'aterreshernandez' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:03:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:03:50 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:03:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:03:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:03:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744635989.png]]
+
+2022-06-20 19:03:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:04:00 - [TEST_STEP][PASSED] - I.SearchProjectNo(Project_No, findTestObject("1. Constant/xpath", ["xpath":"//*[@id="form_filters"]/div[7]/button"])): Delayed 5 second(s)
+
+2022-06-20 19:04:01 - [MESSAGE][PASSED] - Text 'MI000970' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:04:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:04:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:04:12 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:04:20 - [TEST_STEP][PASSED] - I.status_lifecycle(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[7]/span"]), "Completado"): Status contain Completado.
+
+2022-06-20 19:04:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Completado'
+
+2022-06-20 19:04:20 - [MESSAGE][PASSED] - Status contain Completado.
+
+2022-06-20 19:04:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:04:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744660358.png]]
+
+2022-06-20 19:04:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-20 19:04:50 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-20 19:04:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.03 TestStarpack Support action (Completed ref) Existing ref 202.01_202.02_ P3" time="163.436" classname="Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.03 TestStarpack Support action (Completed ref) Existing ref 202.01_202.02_ P3" status="PASSED">
+         <system-out><![CDATA[2022-06-20 19:04:50 - [TEST_CASE][PASSED] - Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.03 TestStarpack Support action (Completed ref) Existing ref 202.01_202.02_ P3: Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.03 TestStarpack Support action (Completed ref) Existing ref 202.01_202.02_ P3
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\202.01 StarPack _Project_No\202.01_StarPack_ProjectNo.txt"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\202.01 StarPack _Project_No\202.01_StarPack_refID.txt"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - refID_PS = I.readnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\202.01 StarPack _Project_No\202.01_StarPack_refID_PS.txt"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - refID_PTS = I.readnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\202.01 StarPack _Project_No\202.01_StarPack_refID_PTS.txt"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - refID_TD = I.readnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\202.01 StarPack _Project_No\202.01_StarPack_refID_TD.txt"): null
+
+2022-06-20 19:04:52 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-20 19:04:52 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-20 19:04:52 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-20 19:04:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-20 19:05:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-20 19:05:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-20 19:05:00 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-20 19:05:00 - [TEST_STEP][PASSED] - I.Login_password("aterreshernandez", password_aterreshernandez): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:01 - [MESSAGE][PASSED] - Text 'aterreshernandez' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:05:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:03 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:05:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744710771.png]]
+
+2022-06-20 19:05:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-20 19:05:15 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[7]/button"): Delayed 5 second(s)
+
+2022-06-20 19:05:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:16 - [MESSAGE][PASSED] - Text 'MI000969' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:05:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:05:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-20 19:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:05:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744730560.png]]
+
+2022-06-20 19:05:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744732539.png]]
+
+2022-06-20 19:05:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744733006.png]]
+
+2022-06-20 19:05:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[4]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/ul/li[3]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:41 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/ul/li[3]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:41 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-20 19:05:41 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-20 19:05:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744741634.png]]
+
+2022-06-20 19:05:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/a[4]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/a[1]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:05:42 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/a[4]"])): Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-20 19:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-20 19:05:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744746842.png]]
+
+2022-06-20 19:05:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744749014.png]]
+
+2022-06-20 19:05:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_support_action_shortcut"]/div/div/div[2]/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:05:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:05:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:05:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:05:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744757852.png]]
+
+2022-06-20 19:05:58 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/ul/li[3]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/ul/li[4]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:06:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/ul/li[5]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-20 19:06:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:05 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[7]/span[2]", "PAF"): Actual text 'PAF' and expected text 'PAF' are matched 
+
+2022-06-20 19:06:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'PAF'
+
+2022-06-20 19:06:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:06:07 - [MESSAGE][PASSED] - Actual text 'PAF' and expected text 'PAF' are matched 
+
+2022-06-20 19:06:07 - [TEST_STEP][PASSED] - color1 = getCSSValue(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 19:06:07 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-20 19:06:07 - [TEST_STEP][PASSED] - while (color1 == "rgba(255, 255, 255, 1)"): null
+
+2022-06-20 19:06:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:06:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:06:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744769644.png]]
+
+2022-06-20 19:06:10 - [TEST_STEP][PASSED] - I.UploadDoc_sendkey_Prod(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/input[2]"]), "D:\Upoad_File\Upload doc\testdataaddition1.pdf", "testdataaddition1.pdf"): Delayed 5 second(s)
+
+2022-06-20 19:06:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-20 19:06:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:06:15 - [MESSAGE][PASSED] - File 'D:\Upoad_File\Upload doc\testdataaddition1.pdf' sent to object: 'Object Repository/1. Constant/xpath'
+
+2022-06-20 19:06:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:06:20 - [MESSAGE][PASSED] - Text 'testdataaddition1.pdf' is present on page 
+
+2022-06-20 19:06:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:06:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:06:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:06:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744790682.png]]
+
+2022-06-20 19:06:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-20 19:06:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-20 19:06:41 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("Object Repository/HL Full Lifecycle/12 ReferncePage_Button_Updatensenddoc")): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 19:06:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-20 19:06:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-20 19:06:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:06:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[3]"]), 10, OPTIONAL)): null
+
+2022-06-20 19:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-20 19:06:58 - [TEST_STEP][PASSED] - color1 = getCSSValue(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[3]"]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(54, 153, 255, 1)'.
+
+2022-06-20 19:06:58 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(54, 153, 255, 1)'.
+
+2022-06-20 19:06:58 - [TEST_STEP][PASSED] - I.AWF_approve_byaction(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[12]/a[2]"])): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 19:07:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-20 19:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-20 19:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-20 19:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-20 19:07:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-20 19:07:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-20 19:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-20 19:07:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-20 19:07:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220620_185153\\z01. Test Suites\\202. TestStarPack Full Lifecycle - Retest 202.03_202.04\\20220620_185154\\1655744850011.png]]
+
+2022-06-20 19:07:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-20 19:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:07:31 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[7]/span[2]", "Buyer supplier approval-L1"): Actual text 'Buyer supplier approval-L1' and expected text 'Buyer supplier approval-L1' are matched 
+
+2022-06-20 19:07:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Buyer supplier approval-L1'
+
+2022-06-20 19:07:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-20 19:07:32 - [MESSAGE][PASSED] - Actual text 'Buyer supplier approval-L1' and expected text 'Buyer supplier approval-L1' are matched 
+
+2022-06-20 19:07:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-20 19:07:33 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-20 19:07:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-20 18:52:03 - [TEST_SUITE][PASSED] - 202. TestStarPack Full Lifecycle - Retest 202.03_202.04: Test Cases/202. TestStarPack Full Lifecycle _Change of Rights_SAS/202.03 TestStarpack Support action (Completed ref) Existing ref 202.01_202.02_ P3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

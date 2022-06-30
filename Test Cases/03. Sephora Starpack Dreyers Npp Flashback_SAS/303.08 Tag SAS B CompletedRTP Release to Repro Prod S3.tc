@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>303.08 Tag SAS B CompletedRTP Release to Repro Prod S3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e749545c-129f-4656-a9ca-f3160dbd84b6</testCaseGuid>
+</TestCaseEntity>

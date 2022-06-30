@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Regulatory</name>
+   <tag></tag>
+   <elementGuidId>bad8c5bf-e21d-4579-9fb2-bb0442a691eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='selSource_25']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#selSource_25</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'selSource_25' and @id = 'selSource_25' and (text() = '
+            Anais MoutardierAnne-Sophie MORISSETAntoine LeuvreyAurélie BertilleCaroline CHYCécile MATZINGERClaire FerranteClara WagonClemence BACKELANDFlorence ARDISSONHazar SOUALMIHouda HEDIOUECHJulie Nairaud-DupoirierJulienne LuLucile LetitreNatacha EVSIOUNINEPaulina Marek Sarmientor egulatorysreg regTIFFANY TURPINYvonne ANCRENAT
+        ' or . = '
+            Anais MoutardierAnne-Sophie MORISSETAntoine LeuvreyAurélie BertilleCaroline CHYCécile MATZINGERClaire FerranteClara WagonClemence BACKELANDFlorence ARDISSONHazar SOUALMIHouda HEDIOUECHJulie Nairaud-DupoirierJulienne LuLucile LetitreNatacha EVSIOUNINEPaulina Marek Sarmientor egulatorysreg regTIFFANY TURPINYvonne ANCRENAT
+        ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>selSource_25</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selSource_25</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>multiple</name>
+      <type>Main</type>
+      <value>multiple</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Anais MoutardierAnne-Sophie MORISSETAntoine LeuvreyAurélie BertilleCaroline CHYCécile MATZINGERClaire FerranteClara WagonClemence BACKELANDFlorence ARDISSONHazar SOUALMIHouda HEDIOUECHJulie Nairaud-DupoirierJulienne LuLucile LetitreNatacha EVSIOUNINEPaulina Marek Sarmientor egulatorysreg regTIFFANY TURPINYvonne ANCRENAT
+        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selSource_25&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='selSource_25']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='ModifFiche']/div[2]/div[2]/div[3]/div[2]/div[4]/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regulatory'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove all'])[4]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[5]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add all'])[5]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>

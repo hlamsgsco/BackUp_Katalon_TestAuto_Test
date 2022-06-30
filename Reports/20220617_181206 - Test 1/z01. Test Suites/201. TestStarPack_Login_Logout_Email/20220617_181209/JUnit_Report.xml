@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="201. TestStarPack_Login_Logout_Email" time="516.471" tests="7" failures="3" errors="0">
+   <testsuite name="201. TestStarPack_Login_Logout_Email" tests="7" failures="3" errors="0" time="516.471" skipped="0" timestamp="2022-06-17 18:16:17" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/z01. Test Suites/201. TestStarPack_Login_Logout_Email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482613031.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482613830.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482629261.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482630782.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482643689.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482644421.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482659674.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482678330.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482701705.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482702511.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482717467.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482757574.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482810346.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482811408.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482812498.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482813481.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482814657.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482815740.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482816917.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482818220.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482834363.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482844768.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482852484.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482872856.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482873945.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482878448.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482882592.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482900020.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482942386.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482947398.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482953925.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482954675.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482968730.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483004661.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483020409.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483056175.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483059320.png, D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483093994.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="45320e6ca20efcba710c793419d23cae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.01 TestStarpack Reset Password (Need to verify email 201.11)" time="53.747" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.01 TestStarpack Reset Password (Need to verify email 201.11)" status="PASSED">
+         <system-out><![CDATA[2022-06-17 18:16:18 - [TEST_CASE][PASSED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.01 TestStarpack Reset Password (Need to verify email 201.11): Test Cases/201. TestStarPack_Login_Logout_Email/201.01 TestStarpack Reset Password (Need to verify email 201.11)
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - login = "flndhx162043": null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-17 18:16:19 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:16:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:16:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:16:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:16:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:16:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:16:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:16:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:16:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:16:40 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:16:42 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:16:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:16:45 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:16:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:16:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:16:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482613031.png]]
+
+2022-06-17 18:16:53 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:16:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:16:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482613830.png]]
+
+2022-06-17 18:16:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:16:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:16:57 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:17:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:08 - [MESSAGE][PASSED] - Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:17:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482629261.png]]
+
+2022-06-17 18:17:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:17:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:10 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="flndhx162043"]/td[14]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482630782.png]]
+
+2022-06-17 18:17:11 - [TEST_STEP][PASSED] - actualmsg = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Login information email sent to flndhx162043'
+
+2022-06-17 18:17:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login information email sent to flndhx162043'
+
+2022-06-17 18:17:11 - [TEST_STEP][PASSED] - Expectedmsg = "Login information email sent to " + login: null
+
+2022-06-17 18:17:11 - [TEST_STEP][PASSED] - verifyEqual(actualmsg, Expectedmsg): Actual object 'Login information email sent to flndhx162043' and expected object 'Login information email sent to flndhx162043' are equal
+
+2022-06-17 18:17:11 - [MESSAGE][PASSED] - Actual object 'Login information email sent to flndhx162043' and expected object 'Login information email sent to flndhx162043' are equal
+
+2022-06-17 18:17:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-17 18:17:12 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.02 TestStarpack Création de compte - annuler la creation (Chrome)" time="57.83" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.02 TestStarpack Création de compte - annuler la creation (Chrome)" status="PASSED">
+         <system-out><![CDATA[2022-06-17 18:17:12 - [TEST_CASE][PASSED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.02 TestStarpack Création de compte - annuler la creation (Chrome): Test Cases/201. TestStarPack_Login_Logout_Email/201.02 TestStarpack Création de compte - annuler la creation (Chrome)
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - password_gmailcancel = "Diadeis*1": null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-17 18:17:12 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:17:12 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:17:12 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:17:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:17:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:17:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:17:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:17:16 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:16 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:18 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482643689.png]]
+
+2022-06-17 18:17:23 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:17:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:17:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:17:24 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:17:24 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482644421.png]]
+
+2022-06-17 18:17:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:17:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:17:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:17:28 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:37 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:17:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:17:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:39 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:17:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:17:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482659674.png]]
+
+2022-06-17 18:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), "ancell"): Text 'ancell' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:17:40 - [MESSAGE][PASSED] - Text 'ancell' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), "c"): Text 'c' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:17:40 - [MESSAGE][PASSED] - Text 'c' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "Mediabox.cancel@gmail.com"): Text 'Mediabox.cancel@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:40 - [MESSAGE][PASSED] - Text 'Mediabox.cancel@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:41 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:42 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:17:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:43 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:17:43 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:17:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_Brand"]), "122", true): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:43 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:17:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userRoleParams_block"]/div/div/table/tbody/tr/td[2]/input[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value", "cancell", 20): Object 'Object Repository/1. Constant/01_id_field_id' has attribute 'value' with value 'cancell'
+
+2022-06-17 18:17:44 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' has attribute 'value' with value 'cancell'
+
+2022-06-17 18:17:44 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:17:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:17:44 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:17:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:17:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), "cancel@testautodiadeis.com"): Text 'cancel@testautodiadeis.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:56 - [MESSAGE][PASSED] - Text 'cancel@testautodiadeis.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:17:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:17:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:17:57 - [TEST_STEP][PASSED] - CT = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table"]/tbody/tr/td"])): Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-17 18:17:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-17 18:17:58 - [TEST_STEP][PASSED] - I.print(CT): null
+
+2022-06-17 18:17:58 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table"]/tbody/tr/td"]), "No matching records found", log): Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-17 18:17:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-17 18:17:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:17:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482678330.png]]
+
+2022-06-17 18:17:58 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-17 18:18:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:18:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-17 18:18:10 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.03 Création de compte (avec parametre) (Need verification email 201.12)" time="93.584" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.03 Création de compte (avec parametre) (Need verification email 201.12)" status="PASSED">
+         <system-out><![CDATA[2022-06-17 18:18:10 - [TEST_CASE][PASSED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.03 Création de compte (avec parametre) (Need verification email 201.12): Test Cases/201. TestStarPack_Login_Logout_Email/201.03 Création de compte (avec parametre) (Need verification email 201.12)
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\201.03 StarPack_Login username\login.txt"): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\201.03 StarPack_Login username.txt"): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - Email = "mediaboxtest.creation@gmail.com": null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-17 18:18:10 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:18:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:18:10 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:18:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:18:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:18:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:18:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:18:15 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:15 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:18:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:18:16 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:18:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:18:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482701705.png]]
+
+2022-06-17 18:18:22 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:18:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:18:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:18:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482702511.png]]
+
+2022-06-17 18:18:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:18:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:18:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:35 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:18:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:18:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:18:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:18:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482717467.png]]
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-17 18:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNrKa181837' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:18:38 - [MESSAGE][PASSED] - Text 'LNrKa181837' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNUyD' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:18:38 - [MESSAGE][PASSED] - Text 'FNUyD' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), Email): Text 'mediaboxtest.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:18:38 - [MESSAGE][PASSED] - Text 'mediaboxtest.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:18:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:39 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:40 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:18:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:18:41 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:18:41 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:18:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_Brand"]), "122", true): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:42 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:18:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userRoleParams_block"]/div/div/table/tbody/tr/td[2]/input[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:18:42 - [TEST_STEP][PASSED] - login = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnrka181837'
+
+2022-06-17 18:18:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnrka181837'
+
+2022-06-17 18:18:42 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:18:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:18:42 - [TEST_STEP][PASSED] - I.VerifyCheckboxChecked("Track Click", findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-17 18:18:43 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-17 18:18:43 - [TEST_STEP][PASSED] - FirstName1 = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'FNUyD'
+
+2022-06-17 18:18:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'FNUyD'
+
+2022-06-17 18:18:43 - [TEST_STEP][PASSED] - LastName1 = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'LNrKa181837'
+
+2022-06-17 18:18:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'LNrKa181837'
+
+2022-06-17 18:18:43 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\201.03 StarPack_Login username\Name.txt", FirstName1 + " " + LastName1): null
+
+2022-06-17 18:18:43 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\zTest_Auto\Test_Projet_ Login\StarPack\201.03 StarPack_Login username\login.txt", login): null
+
+2022-06-17 18:18:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:19:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flnrka181837' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:16 - [MESSAGE][PASSED] - Text 'flnrka181837' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:19:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:17 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id='" + login + "']/td[5]"]), login, log): Text of object 'Object Repository/1. Constant/xpath' is: 'flnrka181837'
+
+2022-06-17 18:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'flnrka181837'
+
+2022-06-17 18:19:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:19:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482757574.png]]
+
+2022-06-17 18:19:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:19:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:18 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - value1 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"2"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'LNrKa181837'
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'LNrKa181837'
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - I.print(value1): null
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - verifyEqual(value1, Lastname): Actual object 'LNrKa181837' and expected object 'LNrKa181837' are equal
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Actual object 'LNrKa181837' and expected object 'LNrKa181837' are equal
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - value2 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"3"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'FNUyD'
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'FNUyD'
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - verifyEqual(value2, FirstName): Actual object 'FNUyD' and expected object 'FNUyD' are equal
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Actual object 'FNUyD' and expected object 'FNUyD' are equal
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - value3 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"4"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'mediaboxtest.creation@gmail.com'
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'mediaboxtest.creation@gmail.com'
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - verifyEqual(value3, Email): Actual object 'mediaboxtest.creation@gmail.com' and expected object 'mediaboxtest.creation@gmail.com' are equal
+
+2022-06-17 18:19:21 - [MESSAGE][PASSED] - Actual object 'mediaboxtest.creation@gmail.com' and expected object 'mediaboxtest.creation@gmail.com' are equal
+
+2022-06-17 18:19:21 - [TEST_STEP][PASSED] - I.VerifyListSelected_byValue("Company", findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1"): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-17 18:19:22 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-17 18:19:22 - [TEST_STEP][PASSED] - I.VerifyCheckboxChecked("Track Click", findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-17 18:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-17 18:19:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="UpdateUser"]/div[2]/div/div[2]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:19:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:30 - [TEST_STEP][PASSED] - "Verify Roles data": null
+
+2022-06-17 18:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flnrka181837' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:31 - [MESSAGE][PASSED] - Text 'flnrka181837' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:19:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:33 - [TEST_STEP][PASSED] - value_role = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="selDest_Brand"]/option"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '122'
+
+2022-06-17 18:19:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '122'
+
+2022-06-17 18:19:34 - [TEST_STEP][PASSED] - verifyEqual(value_role, "122"): Actual object '122' and expected object '122' are equal
+
+2022-06-17 18:19:34 - [MESSAGE][PASSED] - Actual object '122' and expected object '122' are equal
+
+2022-06-17 18:19:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="UpdateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-17 18:19:43 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-17 18:19:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires)" time="158.956" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id=&quot;toast-container&quot;]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-06-17 18:19:43 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires): Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-17 18:19:44 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:19:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:19:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:19:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:19:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:19:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:19:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - "SCENARIO 1 : ALL REQUIRED FIELDS ARE EMPTY": null
+
+2022-06-17 18:19:48 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:48 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:49 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:19:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:54 - [TEST_STEP][PASSED] - I.GoToUserManagement(): Wait for page load successfully
+
+2022-06-17 18:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:19:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-17 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:09 - [TEST_STEP][PASSED] - "Verify if star is displayed on": null
+
+2022-06-17 18:20:09 - [TEST_STEP][PASSED] - I.verifystar("Last name", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[1]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482810346.png]]
+
+2022-06-17 18:20:10 - [TEST_STEP][PASSED] - I.verifystar("First Name", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[2]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:11 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482811408.png]]
+
+2022-06-17 18:20:11 - [TEST_STEP][PASSED] - I.verifystar("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[3]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482812498.png]]
+
+2022-06-17 18:20:12 - [TEST_STEP][PASSED] - I.verifystar("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482813481.png]]
+
+2022-06-17 18:20:14 - [TEST_STEP][PASSED] - I.verifystar("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[5]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482814657.png]]
+
+2022-06-17 18:20:15 - [TEST_STEP][PASSED] - I.verifystar("Expiration date", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[8]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482815740.png]]
+
+2022-06-17 18:20:16 - [TEST_STEP][PASSED] - I.verifystar("User Role", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[9]/label/img"]), log): Taking screenshot successfully
+
+2022-06-17 18:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482816917.png]]
+
+2022-06-17 18:20:17 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:20:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482818220.png]]
+
+2022-06-17 18:20:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:19 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:20:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:20:22 - [TEST_STEP][PASSED] - "SCENARIO 2: COMPANY BLANK": null
+
+2022-06-17 18:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:24 - [MESSAGE][PASSED] - Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNL9P' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:25 - [MESSAGE][PASSED] - Text 'FNL9P' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:25 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TEST@TEST.com"): Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:20:27 - [MESSAGE][PASSED] - Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:20:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:20:30 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:20:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:20:31 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:31 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:20:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:20:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:20:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482834363.png]]
+
+2022-06-17 18:20:34 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Company missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Company missing'
+
+2022-06-17 18:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Company missing'
+
+2022-06-17 18:20:35 - [TEST_STEP][PASSED] - "SCENARIO 3: Last Name blank": null
+
+2022-06-17 18:20:35 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:20:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:20:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:20:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:20:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:20:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:20:39 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:40 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:20:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:20:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:20:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482844768.png]]
+
+2022-06-17 18:20:45 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Name missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Name missing'
+
+2022-06-17 18:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Name missing'
+
+2022-06-17 18:20:45 - [TEST_STEP][PASSED] - "SCENARIO 4: First name blank": null
+
+2022-06-17 18:20:45 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:20:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:47 - [MESSAGE][PASSED] - Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:20:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:20:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:20:48 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:48 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:20:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:20:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:20:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:20:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482852484.png]]
+
+2022-06-17 18:20:52 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "First Name missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'First Name missing'
+
+2022-06-17 18:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:20:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'First Name missing'
+
+2022-06-17 18:20:53 - [TEST_STEP][PASSED] - "SCENARIO 5A: Login blank": null
+
+2022-06-17 18:20:53 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:03 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:05 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:06 - [MESSAGE][PASSED] - Text 'LNWWH181948' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:06 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNL9P' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:06 - [MESSAGE][PASSED] - Text 'FNL9P' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:06 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TEST@TEST.com"): Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:07 - [MESSAGE][PASSED] - Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:07 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:08 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:08 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:21:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-17 18:21:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:21:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:21:09 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:21:09 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:21:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:21:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:21:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:21:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482872856.png]]
+
+2022-06-17 18:21:13 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "This login must contain beetween 4 and 18 characters", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-17 18:21:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:21:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-17 18:21:13 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "ter"): Text 'ter' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:13 - [MESSAGE][PASSED] - Text 'ter' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:21:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482873945.png]]
+
+2022-06-17 18:21:14 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "This login must contain beetween 4 and 18 characters", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-17 18:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:21:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-17 18:21:14 - [TEST_STEP][PASSED] - "SCENARIO 6A: EMAIL blank": null
+
+2022-06-17 18:21:14 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-17 18:21:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-17 18:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "ter12"): Text 'ter12' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:14 - [MESSAGE][PASSED] - Text 'ter12' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:21:14 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:21:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:21:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:21:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482878448.png]]
+
+2022-06-17 18:21:18 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Email", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Email missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Email missing
+Invalid email'
+
+2022-06-17 18:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:21:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Email missing
+Invalid email'
+
+2022-06-17 18:21:18 - [TEST_STEP][PASSED] - "SCENARIO 6B: INVALID EMAIL": null
+
+2022-06-17 18:21:18 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TESTT.com"): Text 'TESTT.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:19 - [MESSAGE][PASSED] - Text 'TESTT.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:21:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:21:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:21:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482882592.png]]
+
+2022-06-17 18:21:22 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Email", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Invalid email", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid email'
+
+2022-06-17 18:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-17 18:21:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid email'
+
+2022-06-17 18:21:23 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-17 18:21:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-17 18:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TESTT@test.com"): Text 'TESTT@test.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:23 - [MESSAGE][PASSED] - Text 'TESTT@test.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:21:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:24 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:21:24 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:21:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:21:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:21:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:21:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482900020.png]]
+
+2022-06-17 18:21:40 - [TEST_STEP][FAILED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Brand missing", log): Unable to get text of object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at Script1655480560859.run(Script1655480560859.groovy:381)
+	... 13 more
+)
+
+2022-06-17 18:21:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="toast-container"]/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-17 18:21:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+
+2022-06-17 18:22:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="toast-container"]/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-17 18:22:22 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at Script1655480560859.run(Script1655480560859.groovy:381)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482942386.png]]
+
+2022-06-17 18:22:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-06-17 18:19:43 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires): Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.05 TestStarpack Création de compte (normal)" time="73.147" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.05 TestStarpack Création de compte (normal)" status="PASSED">
+         <system-out><![CDATA[2022-06-17 18:22:22 - [TEST_CASE][PASSED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.05 TestStarpack Création de compte (normal): Test Cases/201. TestStarPack_Login_Logout_Email/201.05 TestStarpack Création de compte (normal)
+
+2022-06-17 18:22:22 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Test_Starpack"): null
+
+2022-06-17 18:22:22 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-17 18:22:23 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:22:23 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:22:23 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-17 18:22:23 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-17 18:22:23 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:22:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-17 18:22:23 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:22:23 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:22:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:22:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/MediaboxIndependence/?MBI_datasource=RELTEST_STARPACK'
+
+2022-06-17 18:22:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:22:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:22:27 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:22:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:22:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:22:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482947398.png]]
+
+2022-06-17 18:22:27 - [TEST_STEP][PASSED] - "SCENARIO : User has the rights to see Usermanagement": null
+
+2022-06-17 18:22:27 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:28 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:22:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:22:29 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:22:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:22:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482953925.png]]
+
+2022-06-17 18:22:34 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:22:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:22:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:22:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482954675.png]]
+
+2022-06-17 18:22:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:22:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:22:38 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:47 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:22:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:22:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:22:48 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:22:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:22:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:22:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655482968730.png]]
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNrtl182249' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:22:49 - [MESSAGE][PASSED] - Text 'LNrtl182249' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNWxU' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:22:49 - [MESSAGE][PASSED] - Text 'FNWxU' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-17 18:22:49 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "mediaboxtest.creation@gmail.com"): Text 'mediaboxtest.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:22:50 - [MESSAGE][PASSED] - Text 'mediaboxtest.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:22:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:22:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:22:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:22:51 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-17 18:22:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object: 'Object Repository/1. Constant/01_id_field_id' is clicked on
+
+2022-06-17 18:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/01_id_field_id' is clicked on
+
+2022-06-17 18:22:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:22:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:22:52 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:22:52 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-17 18:22:52 - [TEST_STEP][PASSED] - login = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnrtl182249'
+
+2022-06-17 18:22:53 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnrtl182249'
+
+2022-06-17 18:22:53 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-17 18:22:53 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:22:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:22:53 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:23:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-17 18:23:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flnrtl182249' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:23:23 - [MESSAGE][PASSED] - Text 'flnrtl182249' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:23:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-17 18:23:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:23:24 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id='" + login + "']/td[5]"]), login, log): Text of object 'Object Repository/1. Constant/xpath' is: 'flnrtl182249'
+
+2022-06-17 18:23:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'flnrtl182249'
+
+2022-06-17 18:23:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:23:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483004661.png]]
+
+2022-06-17 18:23:24 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-17 18:23:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:23:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-17 18:23:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-17 18:23:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01)" time="40.545" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.11 Verification Email pour le reset password (201.01).run(201.11 Verification Email pour le reset password (201.01):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id=&quot;identifierNext&quot;]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-06-17 18:23:35 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01): Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.11 Verification Email pour le reset password (201.01).run(201.11 Verification Email pour le reset password (201.01):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - login = "flndhx162043": null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - FLName = "FN1V5 LNDHx162043": null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-17 18:23:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-17 18:23:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-17 18:23:36 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:23:36 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:23:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:23:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-17 18:23:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:23:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:23:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:23:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:23:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:23:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483020409.png]]
+
+2022-06-17 18:23:40 - [TEST_STEP][FAILED] - I.Login_gmail("testmediabox.modif@gmail.com", password_mediaboxCreation): Unable to click on object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.11 Verification Email pour le reset password (201.01).run(201.11 Verification Email pour le reset password (201.01):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at Script1655480560880.run(Script1655480560880.groovy:49)
+	... 13 more
+)
+
+2022-06-17 18:23:42 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2022-06-17 18:23:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:23:44 - [MESSAGE][PASSED] - Text 'testmediabox.modif@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:23:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:24:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="identifierNext"]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-17 18:24:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.11 Verification Email pour le reset password (201.01).run(201.11 Verification Email pour le reset password (201.01):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at Script1655480560880.run(Script1655480560880.groovy:49)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483056175.png]]
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-06-17 18:23:35 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01): Test Cases/201. TestStarPack_Login_Logout_Email/201.11 Verification Email pour le reset password (201.01) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.11 Verification Email pour le reset password (201.01).run(201.11 Verification Email pour le reset password (201.01):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03)" time="37.869" classname="Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.12 Verification Email pour creation user (201.03).run(201.12 Verification Email pour creation user (201.03):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id=&quot;identifierNext&quot;]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-06-17 18:24:16 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03): Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.12 Verification Email pour creation user (201.03).run(201.12 Verification Email pour creation user (201.03):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - data_urlTestAUTO = findTestData("Data Files/URL/URL_testauto"): null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - Url_Starpack = data_urlTestAUTO.getValue(2, 2): null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - login = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\login.txt"): null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - FLName = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\Name.txt"): null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-17 18:24:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-17 18:24:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-17 18:24:17 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-17 18:24:17 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-17 18:24:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-17 18:24:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-17 18:24:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-17 18:24:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-17 18:24:19 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-17 18:24:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-17 18:24:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-17 18:24:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483059320.png]]
+
+2022-06-17 18:24:19 - [TEST_STEP][FAILED] - I.Login_gmail("mediaboxtest.creation@gmail.com", password_mediaboxCreation): Unable to click on object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.12 Verification Email pour creation user (201.03).run(201.12 Verification Email pour creation user (201.03):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at Script1655480560888.run(Script1655480560888.groovy:45)
+	... 13 more
+)
+
+2022-06-17 18:24:20 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2022-06-17 18:24:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:24:21 - [MESSAGE][PASSED] - Text 'mediaboxtest.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-17 18:24:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-17 18:24:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="identifierNext"]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-17 18:24:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.12 Verification Email pour creation user (201.03).run(201.12 Verification Email pour creation user (201.03):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at Script1655480560888.run(Script1655480560888.groovy:45)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation [Test]\\Reports\\20220617_181206\\z01. Test Suites\\201. TestStarPack_Login_Logout_Email\\20220617_181209\\1655483093994.png]]
+
+2022-06-17 18:24:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-06-17 18:24:16 - [TEST_CASE][FAILED] - Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03): Test Cases/201. TestStarPack_Login_Logout_Email/201.12 Verification Email pour creation user (201.03) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at functions.I.Login_gmail(I.groovy:1160)
+	at functions.I$Login_gmail$11.call(Unknown Source)
+	at 201.12 Verification Email pour creation user (201.03).run(201.12 Verification Email pour creation user (201.03):45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="identifierNext"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-17 18:16:17 - [TEST_SUITE][FAILED] - 201. TestStarPack_Login_Logout_Email: Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[2022-06-17 18:16:17 - [TEST_SUITE][FAILED] - 201. TestStarPack_Login_Logout_Email: Test Cases/201. TestStarPack_Login_Logout_Email/201.04 TestStarpack Création de compte (Validation des champs obligatoires) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at functions.I.verifyErrormsg_toastr(I.groovy:1082)
+	at functions.I$verifyErrormsg_toastr$10.call(Unknown Source)
+	at 201.04 TestStarpack Création de compte (Validation des champs obligatoires).run(201.04 TestStarpack Création de compte (Validation des champs obligatoires):381)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655482329369.run(TempTestSuite1655482329369.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

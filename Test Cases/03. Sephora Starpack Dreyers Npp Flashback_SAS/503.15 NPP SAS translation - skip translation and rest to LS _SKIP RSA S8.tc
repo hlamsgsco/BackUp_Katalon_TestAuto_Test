@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>503.15 NPP SAS translation - skip translation and rest to LS _SKIP RSA S8</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>235d363f-1b56-47ab-b508-a18013e1901a</testCaseGuid>
+</TestCaseEntity>

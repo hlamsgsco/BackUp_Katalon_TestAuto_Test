@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>412.10 Dreyers Out of Office Reset a delegation usermanagement and my profile</name>
+   <tag></tag>
+   <comment>Close Browser</comment>
+   <testCaseGuid>cdecbdb8-760e-4adb-b0d2-506e7d50c4f8</testCaseGuid>
+</TestCaseEntity>

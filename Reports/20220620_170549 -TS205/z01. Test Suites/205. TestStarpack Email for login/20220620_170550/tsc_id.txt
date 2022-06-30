@@ -1,0 +1,1 @@
+Test Suites/01. TSC - Chrome/205. TestStarpack Email for login (TSC)

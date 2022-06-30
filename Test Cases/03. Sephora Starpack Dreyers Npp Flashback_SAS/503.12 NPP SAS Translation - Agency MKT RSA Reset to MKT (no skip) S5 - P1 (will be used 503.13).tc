@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>503.12 NPP SAS Translation - Agency MKT RSA Reset to MKT (no skip) S5 - P1 (will be used 503.13)</name>
+   <tag></tag>
+   <comment>On the modify project page : Fill in all field</comment>
+   <testCaseGuid>e723bf57-cadc-4dde-85c3-75a34371b959</testCaseGuid>
+</TestCaseEntity>
