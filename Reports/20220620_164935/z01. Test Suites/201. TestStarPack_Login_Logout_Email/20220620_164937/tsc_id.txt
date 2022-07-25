@@ -1,1 +1,0 @@
-Test Suites/01. TSC - Chrome/201. TestStarPack_Login_Logout (TSC)

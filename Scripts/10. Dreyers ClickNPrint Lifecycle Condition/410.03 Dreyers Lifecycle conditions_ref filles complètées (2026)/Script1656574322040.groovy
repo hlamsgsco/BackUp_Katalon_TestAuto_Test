@@ -36,7 +36,7 @@ WebUI.openBrowser(Url_Dreyer)
 WebUI.maximizeWindow()
 
 ///////////////////////////////// NAVIGATING TO DREYERS  ////////////////////////////////////////////
-'Screenshot: Navigate to URL Dreyer Release'
+'Screenshot: Navigate to URL Dreyer'
 WebUI.takeScreenshot()
 
 'Log in '
@@ -182,7 +182,7 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 String refID_Mother = functions.I.RefID()
 
-functions.I.print(refID_Mother)
+
 
 'Click on Create a deliverable button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="type_save"]']))

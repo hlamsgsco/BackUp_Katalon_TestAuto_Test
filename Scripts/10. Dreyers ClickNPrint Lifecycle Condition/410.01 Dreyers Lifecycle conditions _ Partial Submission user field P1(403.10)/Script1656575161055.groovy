@@ -30,11 +30,11 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Dreyer = data_urlTESTAUTO.getValue(2, 4)
 
 // NOTEPAD CLEAR
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt')
 
 ///////////////////////////// TEST BEGIN /////////////////////////////////////////
 
@@ -421,11 +421,11 @@ WebUI.verifyMatch(lifecyclestatus7, 'Complete', false)
 
 functions.I.Logout()
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt', Project_No)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt', refID_daughter1)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt',  refID)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt', refID_APL)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt', refID_LI)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt', Project_No)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt', refID_daughter1)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt',  refID)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt', refID_APL)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt', refID_LI)
 
 WebUI.closeBrowser()
 

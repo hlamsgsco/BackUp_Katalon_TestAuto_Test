@@ -39,9 +39,9 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Sephora = data_urlTESTAUTO.getValue(2, 1)
 
 //CLEAR NOTEPAD
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_refID.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_refID.txt')
 
 KeywordLogger log = new KeywordLogger()
 
@@ -805,10 +805,10 @@ functions.I.status(findTestObject('HL Full Lifecycle/Status', [('refID') : 'sour
 WebUI.takeScreenshot()
 
 //Notepad write
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt', 
     Project_No)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_refID.txt', refID)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_refID.txt', refID)
 
 WebUI.closeBrowser()
 

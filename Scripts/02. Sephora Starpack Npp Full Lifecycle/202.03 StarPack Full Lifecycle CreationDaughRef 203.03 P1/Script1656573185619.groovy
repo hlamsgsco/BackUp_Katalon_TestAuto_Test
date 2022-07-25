@@ -47,15 +47,15 @@ String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 KeywordLogger log = new KeywordLogger()
 
 //Clear Notepad
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
 
 ////////////////////////////////////////////TEST START ////////////////////////////
 //BROWSE & MAXIMIZE BROWSER
@@ -100,14 +100,22 @@ WebUI.takeScreenshot()
 'Select from list Enseña: Dia'
 functions.I.SelectFromList_Value('//*[@id="var_98"]', '122')
 
-'Select from list Buyer:Alejandro Martin Arbol'
+WebUI.delay(2)
+
+'28 Select from list Buyer:Alejandro Martin Arbol'
 functions.I.SelectFromList_Value('//*[@id="var_9"]', 'amartin_arbol')
+
+WebUI.delay(2)
 
 'Select from list Packaging Manager: ANAISABEL TERRÉSHERNÁNDEZ'
 functions.I.SelectFromList_Value('//*[@id="var_10"]', 'aterreshernandez')
 
+WebUI.delay(1)
+
 'Add options > Multiple field list Ingeniero de Packaging'
 functions.I.select_multiplelist('//*[@id="selSource_49"]', '//*[@id="btnAdd_49"]', 'nalonsobermejo')
+
+WebUI.delay(1)
 
 'Select from list Código del proveedor: 0075022'
 functions.I.SelectFromList_Value('//*[@id="var_15"]', '292')
@@ -164,7 +172,7 @@ WebUI.click(findTestObject('HL Full Lifecycle/6 ReferenceListPage_createrefbutto
 'Click create ref'
 WebUI.click(findTestObject('HL Full Lifecycle/6 ReferenceListPaga_Create a component_button'))
 
-WebUI.waitForPageLoad(10)
+WebUI.delay(5)
 
 'Screenshot: Creation Reference Page'
 WebUI.takeScreenshot()
@@ -174,14 +182,14 @@ functions.I.SelectFromList_Value('//*[@id="ref_type"]', '6')
 
 'Click + to create ref'
 WebUI.click(findTestObject('HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton'))
-
+WebUI.delay(5)
 'Get refid'
 String refID = functions.I.RefID()
 
 'Screenshot: Modification Reference Page'
 WebUI.takeScreenshot()
-
-'Input text code: 209293'
+WebUI.delay(5)
+'59 Input text code: 209293'
 WebUI.sendKeys(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'var_28']), '209293')
 
 'Input Vínculo con boceto: test Submarca'
@@ -319,19 +327,19 @@ String refID_PS = Integer.parseInt(refID) + 2
 String refID_TD = Integer.parseInt(refID) + 3
 
 //Write notepad
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt', 
     Project_No)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt', 
     refID)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt', 
     refID_PS)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt', 
     refID_PTS)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt', 
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt', 
     refID_TD)
 
 //setup: suser	 ~ dchi
@@ -819,7 +827,9 @@ functions.I.SearchProjectNo(Project_No, findTestObject('1. Constant/xpath', [('x
 WebUI.click(findTestObject('Object Repository/StarPack - Full Lifecycle (AWIS)/6.01 Anais id_refID_a2', [('refID') : 'ancre_' + 
             refID_PS]))
 
-'Approve doc'
+WebUI.delay(3)
+
+'228 Approve doc'
 functions.I.AWF_approve_view()
 
 'logout as ANAISABEL TERRÉSHERNÁNDEZ'

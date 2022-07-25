@@ -45,10 +45,10 @@ String Url_Dreyer = data_urlTESTAUTO.getValue(2, 4)
 
 
 //READ NOTEPAD FROM TC 19.01
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
 
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.10_Dreyers_refID10.txt')
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.10_Dreyers_refID10.txt')
 
 //String refID10 = '3715'
 
@@ -711,7 +711,7 @@ String Lifecycle_Status66 = WebUI.getText(findTestObject('1. Constant/xpath', [(
 WebUI.verifyMatch(Lifecycle_Status66, 'Complete', false)
 
 WebUI.takeScreenshot()
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.10_Dreyers_refID10.txt', refID10)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.10_Dreyers_refID10.txt', refID10)
 
 WebUI.closeBrowser()
 

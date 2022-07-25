@@ -28,6 +28,7 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Npp = data_urlTESTAUTO.getValue(2, 5)
 
 //READ FROM NOTEPAD TC 16.08
+//D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login
 String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\NPP\\503.12\\503.12_NPP_ProjectNo.txt')
 String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\NPP\\503.12\\503.12_NPP_refID.txt')
 

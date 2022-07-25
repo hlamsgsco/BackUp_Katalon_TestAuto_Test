@@ -27,16 +27,18 @@ import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
 //DATA FILE USERNAME & PASSWORD [STARPACK]
 def data = TestDataFactory.findTestData('Data Files/Username_Password/Test_Starpack')
-String password_suser = data.getValue(2, 1) //1
 
-
+String password_suser = data.getValue(2, 1 //1
+    )
 
 def data_urlTestAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+
 String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 
 //CLEAR NOTEPAD
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username\\login.txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username\\login.txt')
+
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username.txt')
 
 //Keyword log
 KeywordLogger log = new KeywordLogger()
@@ -52,8 +54,6 @@ String password_mediaboxCreation = 'Diadeis*1'
 WebUI.openBrowser(Url_Starpack)
 
 WebUI.maximizeWindow()
-
-
 
 //SCENARIO : User has the rights to see Usermanagement
 'Login as suser'
@@ -93,25 +93,20 @@ def Lastname = ('LN' + org.apache.commons.lang.RandomStringUtils.randomAlphanume
 def FirstName = 'FN' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(3)
 
 'Enter Text: Last name'
-WebUI.setText(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userName']), 
-    Lastname)
+WebUI.setText(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userName']), Lastname)
 
 'Enter Text: First name'
-WebUI.setText(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userFirstName']), 
-    FirstName)
-
+WebUI.setText(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userFirstName']), FirstName)
 
 'Enter Text: E- Mail'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="userDetails"]/div[2]/div[4]/div/input']), 
-    Email)
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="userDetails"]/div[2]/div[4]/div/input']), Email)
 
 'Select from List: Company> diadeis'
-WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userCompany']), '1', true)
+WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userCompany']), '1', true)
 
 'Select from List: User role > Commercial support'
-WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userRole']), 'Commercial_support', true)
+WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userRole']), 'Commercial_support', 
+    true)
 
 'delay 1'
 WebUI.delay(1)
@@ -120,47 +115,67 @@ WebUI.delay(1)
 functions.I.Pagedown()
 
 'Select Role data details Multiplelist Brand Dia'
-WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'selSource_Brand']), '122', true)
+WebUI.selectOptionByValue(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'selSource_Brand']), '122', true)
 
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="userRoleParams_block"]/div/div/table/tbody/tr/td[2]/input[1]']))
 
-String login = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userLogin']), 'value')
-
+String login = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userLogin']), 'value')
 
 WebUI.waitForPageLoad(30)
 
 'Verify that the checkbox is checked'
-functions.I.VerifyCheckboxChecked('Track Click', findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userTrackClick']))
+functions.I.VerifyCheckboxChecked('Track Click', findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userTrackClick']))
 
-String FirstName1 = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userFirstName']), 'value')
+String FirstName1 = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userFirstName']), 'value')
 
-String LastName1 = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userName']), 'value')
+String LastName1 = WebUI.getAttribute(findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userName']), 'value')
 
+'delay 3'
+WebUI.delay(5)
 //NOTEPAD
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username\\Name.txt', (FirstName1 + ' ') + LastName1)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username\\login.txt', login)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username\\Name.txt', 
+    (FirstName1 + ' ') + LastName1)
+
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username\\login.txt', 
+    login)
+
+'delay 3'
+WebUI.delay(10)
 
 'Click on save and send email'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="CreateUser"]/div[3]/div/button[2]']))
 
 'delay 3'
-WebUI.delay(3)
+WebUI.delay(5)
+/*
+WebUI.navigateToUrl(Url_Starpack)
 
-'Search for login'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="users_table_filter"]/label/input']), 
-    login)
+
+//SCENARIO : User has the rights to see Usermanagement
+'Login as suser'
+functions.I.Login_password('suser', password_suser)
+
+'Screenshot: Login as suser'
+WebUI.takeScreenshot()
+
+WebUI.waitForPageLoad(30)
+
+'Click on the Menu > Settings'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]']))
+
+'Screenshot: Menu > Settings'
+WebUI.takeScreenshot()
+
+'delay 3'
+WebUI.delay(3)
+*/
+'44 Search for login'
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="users_table_filter"]/label/input']), login)
 
 'delay 1'
 WebUI.delay(1)
 
-
-functions.I.verifymsg(findTestObject('1. Constant/xpath', [('xpath') : "//*[@id='" + login+"']/td[5]"]), 
-    login, log)
+functions.I.verifymsg(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id=\'' + login) + '\']/td[5]']), login, log)
 
 'Screenshot: User Management page'
 WebUI.takeScreenshot()
@@ -194,12 +209,11 @@ String value3 = WebUI.getAttribute(findTestObject('Object Repository/Starpack US
 WebUI.verifyEqual(value3, Email)
 
 'Verify that Diadeis is selected in List Company'
-functions.I.VerifyListSelected_byValue('Company', findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userCompany']), '1')
+functions.I.VerifyListSelected_byValue('Company', findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userCompany']), 
+    '1')
 
 'Verify that the checkbox is checked'
-functions.I.VerifyCheckboxChecked('Track Click', findTestObject('1. Constant/01_id_field_id', 
-        [('field_id') : 'userTrackClick']))
+functions.I.VerifyCheckboxChecked('Track Click', findTestObject('1. Constant/01_id_field_id', [('field_id') : 'userTrackClick']))
 
 'Click cancel'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="UpdateUser"]/div[2]/div/div[2]/div/a']))
@@ -211,8 +225,7 @@ WebUI.delay(1)
 'Verify Roles data'
 
 'Search for login'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="users_table_filter"]/label/input']), 
-    login)
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="users_table_filter"]/label/input']), login)
 
 'Click on roles'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td[4]/a']))

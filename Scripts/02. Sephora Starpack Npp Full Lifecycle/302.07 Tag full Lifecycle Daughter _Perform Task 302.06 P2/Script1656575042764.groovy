@@ -63,7 +63,7 @@ String refID1 = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet
 
 ///////////////////////////// TEST BEGIN /////////////////////////////////////////
 //BROWSE & MAXIMIZE BROWSER
-'Navigate to URL Tag Release'
+'Navigate to URL Tag'
 WebUI.openBrowser(Url_Tag)
 
 WebUI.maximizeWindow()

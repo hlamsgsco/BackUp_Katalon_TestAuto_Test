@@ -36,9 +36,9 @@ String password_studio = data_Sephora.getValue(2, 4 //R
     )
 
 //DATA FILE URL [SEPHORA]
-def data_urlRELAUTO = TestDataFactory.findTestData('Data Files/URL/URL_relauto')
+def data_urlAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
 
-String Url_Sephora = data_urlRELAUTO.getValue(2, 1)
+String Url_Sephora = data_urlAUTO.getValue(2, 1)
 
 //CLEAR NOTEPAD
 functions.I.clearnotepad('D:\\Upoad_File\\Projet_ Login\\Sephora\\20.01\\20.01_Sephora_ProjectNo.txt')

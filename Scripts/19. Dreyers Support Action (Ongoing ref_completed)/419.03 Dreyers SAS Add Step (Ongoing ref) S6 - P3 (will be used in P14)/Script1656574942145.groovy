@@ -30,49 +30,56 @@ import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
  Result: A new step is added after the current one
   
   */
-
 ///////////////////////////USERNAME - PASSWORD - URL////////////////////////////////////
 //USERNAME & PASSWORD  - Dreyers
 def data_Dreyers = TestDataFactory.findTestData('Data Files/Username_Password/Test_Dreyer')
 
-String password_suser = data_Dreyers.getValue(2, 1) //R
-String password_blemco = data_Dreyers.getValue(2, 2) //R
-String password_nturner = data_Dreyers.getValue(2, 6) //R
-String password_talexeeva = data_Dreyers.getValue(2, 7) //R
-String password_jryan = data_Dreyers.getValue(2, 12) //R
-String password_lmary = data_Dreyers.getValue(2, 13)//R
+String password_suser = data_Dreyers.getValue(2, 1 //R
+    )
 
+String password_blemco = data_Dreyers.getValue(2, 2 //R
+    )
+
+String password_nturner = data_Dreyers.getValue(2, 6 //R
+    )
+
+String password_talexeeva = data_Dreyers.getValue(2, 7 //R
+    )
+
+String password_jryan = data_Dreyers.getValue(2, 12 //R
+    )
+
+String password_lmary = data_Dreyers.getValue(2, 13 //R
+    )
 
 //URL
 def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+
 String Url_Dreyer = data_urlTESTAUTO.getValue(2, 4)
 
-
 //READ NOTEPAD FROM TC 19.01
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
 
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
 
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.3_Dreyers_refID3.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.3_Dreyers_refID3.txt')
 
 ///////////////////////////// TEST BEGIN /////////////////////////////////////////
-
 'Navigate to URL Dreyers Release'
 WebUI.openBrowser(Url_Dreyer)
-WebUI.disableSmartWait()
-WebUI.maximizeWindow()
 
+WebUI.disableSmartWait()
+
+WebUI.maximizeWindow()
 
 'Log in as suser'
 functions.I.Login_password('suser', password_suser)
-
 
 'Screenshot: Login as suser'
 WebUI.takeScreenshot()
 
 'Click on the lhs menu - project tab'
 WebUI.click(findTestObject('1. Constant/02_LHSMenu_Projects'))
-
 
 'search for the project number'
 functions.I.SearchProjectNo_xpath(Project_No, '//*[@id="keynum_project"]', '//*[@id="form_filters"]/div[4]/button')
@@ -101,7 +108,6 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_name"]']), ref_name)
 
-
 'Screenshot: create ref page'
 WebUI.takeScreenshot()
 
@@ -109,7 +115,6 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="createRefBottom"]']))
 
 WebUI.delay(1)
-
 
 'Screenshot: Ref Form page'
 WebUI.takeScreenshot()
@@ -128,13 +133,12 @@ WebUI.delay(1)
 
 functions.I.SearchRefNo_xpath('P3_Auto', '//*[@id="fiche_filter_keywords11"]', '//*[@id="form_filters"]/div[3]/button')
 
-'Click on submit'
 ////*[@id="source_3667"]/td[14]/a[3]
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/a[3]']))
+'Click on submit'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[3]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
-
 
 //PHASE 1.2
 'Screenshot: Ref List page'
@@ -142,13 +146,11 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-
 'Click on submit'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/a[3]']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[3]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
-
 
 //PHASE 2.1
 'Screenshot: Ref List page'
@@ -156,18 +158,16 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-
 //CLICK ACTION BUTTON FOR PROD
-' Upload  file for Production Phase '
 ////*[@id="source_3667"]/td[14]/a[2]
-String color1 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refID3) + '"]/td[14]/a[2]']), 'color', FailureHandling.OPTIONAL)
+' Upload  file for Production Phase '
+String color1 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[2]']), 
+    'color', FailureHandling.OPTIONAL)
 
 functions.I.print(color1)
 
 while (color1 == 'rgba(255, 255, 255, 1)') {
-    WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-                refID3) + '"]/td[14]/a[2]']))
+    WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[2]']))
 
     //UPLOAD A DOC - PDF
     functions.I.UploadDoc_sendkey_Prod(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_body"]/input[2]']), 
@@ -183,24 +183,24 @@ while (color1 == 'rgba(255, 255, 255, 1)') {
 
     WebUI.delay(5)
 
-    color1 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-                refID3) + '"]/td[14]/a[2]']), 'color', FailureHandling.OPTIONAL)
+    color1 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[2]']), 
+        'color', FailureHandling.OPTIONAL)
 }
 
 'Screenshot: Ref List page'
 WebUI.takeScreenshot()
 
-
 'Click on the ref link'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[6]/a']))
- 
- 'Screenshot:Ref'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[6]/a']))
+
+'Screenshot:Ref'
 WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
 'Approve for others'
-functions.I.Approveforothers('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/img','/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[6]/a[2]/span')
+functions.I.Approveforothers('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/img', 
+    '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[6]/a[2]/span')
 
 WebUI.delay(1)
 
@@ -209,10 +209,10 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_subhea
 
 WebUI.delay(1)
 
-
 // Phase 3.1
 'Question: Submit phase'
-functions.I.submitquesiton_ref(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/div[1]/button']), findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/div[1]/div/a[1]']))
+functions.I.submitquesiton_ref(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/button']), 
+    findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/div/a[1]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
@@ -222,7 +222,8 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 WebUI.takeScreenshot()
 
 'Question: Submit phase'
-functions.I.submitquesiton_ref(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/div[1]/button']), findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+'"]/td[14]/div[1]/div/a[1]']))
+functions.I.submitquesiton_ref(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/button']), 
+    findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/div/a[1]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
@@ -231,9 +232,9 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 'Screenshot:Ref'
 WebUI.takeScreenshot()
 
-'Click on submit'
 ///*[@id="source_3667"]/td[14]/a[3]
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+ '"]/td[14]/a[3]']))
+'Click on submit'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[3]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
@@ -242,25 +243,24 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 'Screenshot:Ref'
 WebUI.takeScreenshot()
 
-'Click on submit'
 ///*[@id="source_3667"]/td[14]/a[3]
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID3+ '"]/td[14]/a[3]']))
+'Click on submit'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[3]']))
 
 'Click on submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
 
 //PHASE 3.5
- //SAS SUPPORT ACTION S6
-
+//SAS SUPPORT ACTION S6
 'Screenshot:Ref'
 WebUI.takeScreenshot()
 
-'Click on the SAS button'
 ////*[@id="source_3667"]/td[14]/div[1]/button
+'Click on the SAS button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/button']))
 
 WebUI.delay(1)
-	
+
 'Screenshot: SAS option'
 WebUI.takeScreenshot()
 
@@ -268,7 +268,6 @@ WebUI.delay(1)
 
 'Choose the 1st option- S4 - Skip 1.2 / Add Step A / Skip 1.1'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/div[1]/div/a[2]']))
-
 
 'Screenshot: SAS popup'
 WebUI.takeScreenshot()
@@ -332,8 +331,8 @@ WebUI.delay(1)
 
 //CLICK ACTION BUTTON FOR PROD
 ' Upload  file for Production Phase '
-String color2 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + 
-            '"]/td[14]/a[2]']), 'color', FailureHandling.OPTIONAL)
+String color2 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[2]']), 
+    'color', FailureHandling.OPTIONAL)
 
 functions.I.print(color2)
 
@@ -341,8 +340,8 @@ while (color2 == 'rgba(255, 255, 255, 1)') {
     WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[14]/a[2]']))
 
     'SELECT APPROVAL WORKFLOW'
-    WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="id_approval_flow_tpl"]']), 
-        '80', false)
+    WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="id_approval_flow_tpl"]']), '80', 
+        false)
 
     //UPLOAD A DOC - PDF
     functions.I.UploadDoc_sendkey_Prod(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_body"]/input[2]']), 
@@ -374,10 +373,10 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 
 'Approve for others'
-functions.I.Approveforothers('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/img','/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[6]/a[2]/span')
+functions.I.Approveforothers('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/img', 
+    '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[6]/a[2]/span')
 
 WebUI.delay(1)
-
 
 'Go back to reflist page'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_subheader"]/div/nav/ol/li[2]/a']))
@@ -481,8 +480,8 @@ WebUI.takeScreenshot()
 'Click on the lhs menu - project tab'
 WebUI.click(findTestObject('1. Constant/02_LHSMenu_Projects'))
 
-'75 search for the project number'
 ////*[@id="form_filters"]/div[4]/button
+'75 search for the project number'
 functions.I.SearchProjectNo_xpath(Project_No, '//*[@id="keynum_project"]', '//*[@id="form_filters"]/div[4]/button')
 
 'Screenshot: Ref list page'
@@ -573,15 +572,15 @@ WebUI.takeScreenshot()
 
 //CLICK ACTION BUTTON FOR PROD
 ' Upload  file for Production Phase '
-String color3 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + 
-            '"]/td[13]/a']), 'color', FailureHandling.OPTIONAL)
+String color3 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[13]/a']), 
+    'color', FailureHandling.OPTIONAL)
 
 while (color3 == 'rgba(255, 255, 255, 1)') {
     WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[13]/a']))
 
     'SELECT APPROVAL WORKFLOW'
-    WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="id_approval_flow_tpl"]']), 
-        '80', false)
+    WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="id_approval_flow_tpl"]']), '80', 
+        false)
 
     //UPLOAD A DOC - PDF
     functions.I.UploadDoc_sendkey_Prod(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_body"]/input[2]']), 
@@ -622,10 +621,12 @@ WebUI.takeScreenshot()
 'Search for ref '
 functions.I.SearchRefNo_xpath('P3_Auto', '//*[@id="fiche_filter_keywords11"]', '//*[@id="form_filters"]/div[3]/button')
 
-////*[@id="source_3668"]/td[13]/a[2]
-'Approve a doc'
-functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + 
-            '"]/td[13]/a[2]']))
+WebUI.delay(5)
+
+functions.I.Pagedown()
+
+'174 Approve a doc'
+functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + '"]/td[13]/a[2]']))
 
 'Verify lifecycle status'
 String Lifecycle_Status6 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID3) + 
@@ -635,7 +636,7 @@ WebUI.verifyMatch(Lifecycle_Status6, 'Complete', false)
 
 WebUI.takeScreenshot()
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.3_Dreyers_refID3.txt', refID3)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.3_Dreyers_refID3.txt', refID3)
 
 WebUI.closeBrowser()
 

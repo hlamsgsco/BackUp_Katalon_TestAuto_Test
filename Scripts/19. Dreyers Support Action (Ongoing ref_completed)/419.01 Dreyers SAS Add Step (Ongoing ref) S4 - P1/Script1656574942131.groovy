@@ -46,8 +46,8 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Dreyer = data_urlTESTAUTO.getValue(2, 4)
 
 //CLEAR NOTEPAD 11.01 TO USE IN TC 11.02/ 11.03/ 11.04
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt')
 
 ///////////////////////////// TEST BEGIN /////////////////////////////////////////
 'Navigate to URL Dreyers Release'
@@ -356,9 +356,9 @@ WebUI.verifyMatch(Lifecycle_Status, 'Phase 2.1 [Production]', false)
 WebUI.takeScreenshot()
 
 //CLEAR NOTEPAD 11.01 TO USE IN TC 11.02/ 11.03/ 11.04
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt', Project_No)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_ProjectNo.txt', Project_No)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt', refID)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\419.01\\419.1_Dreyers_refID.txt', refID)
 
 'Close Browser'
 WebUI.closeBrowser()

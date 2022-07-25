@@ -39,8 +39,8 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Tag = data_urlTESTAUTO.getValue(2, 3)
 
 //READ FROM NOTEPAD
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_refID.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_ProjectNo.txt')
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_refID.txt')
 
 ////////////////////////CHROME //////////////////////////
 //////////////////USING THE SAME PROJECT AND REF AS IN 11.1 TAG SIMULTANEOUS MODIF //////////////////////////////

@@ -30,11 +30,11 @@ def data_urlTestAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 
 //READ FROM NOTEPAD TC 4.01 - 15.03 - 16.01
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
-String refID_PS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
-String refID_PTS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
-String refID_TD = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
+String refID_PS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
+String refID_PTS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
+String refID_TD = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
 
 
 ///Support action used : AW sin brief - Go back to PAF from sample reception 2

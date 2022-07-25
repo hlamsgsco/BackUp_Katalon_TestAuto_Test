@@ -24,11 +24,11 @@ String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 //String login = 'flnhfy135718'
 
 
-String login = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username\\login.txt')
+String login = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username\\login.txt')
 
 functions.I.print(login)
 
-String FLName = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\201.03 StarPack_Login username.txt')
+String FLName = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\201.03 StarPack_Login username.txt')
 
 //GMAIL: mediaboxtest.creation@gmail.com
 String password_mediaboxCreation = 'Diadeis*1'

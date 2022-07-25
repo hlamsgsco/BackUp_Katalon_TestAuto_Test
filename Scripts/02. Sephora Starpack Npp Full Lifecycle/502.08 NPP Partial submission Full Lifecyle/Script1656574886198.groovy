@@ -48,7 +48,9 @@ String password_cdemonchy = data_Npp.getValue(2, 7 //R
 
 //URL
 def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+
 String Url_Npp = data_urlTESTAUTO.getValue(2, 5)
+
 ////////////////////////////NAVIGATE TO NPP ///////////////////////////////////
 'Navigate to NPP'
 WebUI.openBrowser(Url_Npp)
@@ -76,25 +78,34 @@ WebUI.takeScreenshot()
 
 //LSS GENERAL INFO
 'Enter text : LSS number'
-def LSSNumber_name = (('TC502.09_AutoTest_Npp_FullLifecycle_' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(10)) + 
-'_') + functions.I.gettimedate()
+def LSSNumber_name = (('TC502.09_AutoTest_Npp_FullLifecycle_' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(
+    10)) + '_') + functions.I.gettimedate()
 
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_70"]']), LSSNumber_name)
 
 WebUI.delay(1)
+
 //RECIPE
 'Select from Technology list - Litter'
 WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_107"]']), '2420', false)
-WebUI.delay(1)
-'Select from Texture multiple list - Corn '
+
+WebUI.delay(3)
+
+'22 Select from Texture multiple list - Corn '
 functions.I.select_multiplelist('//*[@id="selSource_108"]', '//*[@id="btnAdd_108"]', '2354')
+
 WebUI.delay(1)
+
 'Enter text: Variety'
 WebUI.setText(findTestObject('xxx Todelete/xpath', [('xpath') : '//*[@id="var_110"]']), 'Variety test')
+
 WebUI.delay(1)
+
 'Enter Text: Alternative Format code'
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_133"]']), 'Alternative Format code test ')
+
 WebUI.delay(1)
+
 'Enter Text: FORMAT Product designation'
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_65"]']), 'FORMAT Product designation test ')
 
@@ -464,6 +475,7 @@ WebUI.delay(2)
 functions.I.select_multiplelist('//*[@id="selSource_108"]', '//*[@id="btnAdd_108"]', '2344')
 
 WebUI.delay(2)
+
 //////////////
 'On the ref form: Click on submit form'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))

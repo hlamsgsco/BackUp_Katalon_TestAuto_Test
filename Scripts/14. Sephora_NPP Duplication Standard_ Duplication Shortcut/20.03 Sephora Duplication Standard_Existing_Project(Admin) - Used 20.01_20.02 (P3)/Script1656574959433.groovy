@@ -33,9 +33,9 @@ String password_suser = data_Sephora.getValue(2, 10 //R
     )
 
 //DATA FILE URL [SEPHORA]
-def data_urlRELAUTO = TestDataFactory.findTestData('Data Files/URL/URL_relauto')
+def data_urlAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
 
-String Url_Sephora = data_urlRELAUTO.getValue(2, 1)
+String Url_Sephora = data_urlAUTO.getValue(2, 1)
 
 //READ NOTEPAD & CLEAR NOTEPAD
 String Project_No1 = functions.I.readnotepad('D:\\Upoad_File\\Projet_ Login\\Sephora\\20.01\\20.01_Sephora_ProjectNo.txt')
@@ -149,15 +149,20 @@ WebUI.verifyElementClickable(findTestObject('1. Constant/xpath', [('xpath') : '/
 'Screenshot: Ref view 52'
 WebUI.takeScreenshot()
 
+
+
 //VERIFY FIELD PREFILLE REF A
-'Verify that field have been prefilled - DDC Complete'
-functions.I.VerifyMatchText('//*[@id="var_152"]', 'Complete')
+'47  Verify that field have been prefilled - DDC Complete'
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/div[1]/div', 
+    'Complete')
 
 'Verify that field have been prefilled - DDC Complete'
-functions.I.VerifyMatchText('//*[@id="var_50"]', 'Primaire')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/div[4]/div', 
+    'Primaire')
 
 'Verify that field have been prefilled - DDC Complete'
-functions.I.VerifyMatchText('//*[@id="var_49"]', 'Etui')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/div[6]/div', 
+    'Etui')
 
 'Go back to ref list page'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_subheader"]/div/nav/ol/li[2]/a']))
@@ -283,7 +288,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_full_
 WebUI.delay(1)
 
 'Verify that Component code'
-functions.I.VerifyMatchText('//*[@id="var_146"]', 'Super edit component code - TC20.3')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/div[5]/div', 'Super edit component code - TC20.3')
 
 'Logout as atran'
 functions.I.Logout()

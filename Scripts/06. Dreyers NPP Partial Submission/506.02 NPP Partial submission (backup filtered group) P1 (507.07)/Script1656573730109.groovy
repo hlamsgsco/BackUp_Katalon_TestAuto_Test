@@ -416,9 +416,9 @@ String Lifecycle_LSS_actual2 = WebUI.getText(findTestObject('1. Constant/xpath',
 WebUI.verifyMatch('PP Approval', Lifecycle_LSS_actual2, false)
 
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\NPP\\506.02\\506.02_NPP_ProjectNo.txt', Project_No)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\NPP\\506.02\\506.02_NPP_ProjectNo.txt', Project_No)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\NPP\\506.02\\506.02_NPP_refID.txt', refID)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\NPP\\506.02\\506.02_NPP_refID.txt', refID)
 
 
 WebUI.closeBrowser()

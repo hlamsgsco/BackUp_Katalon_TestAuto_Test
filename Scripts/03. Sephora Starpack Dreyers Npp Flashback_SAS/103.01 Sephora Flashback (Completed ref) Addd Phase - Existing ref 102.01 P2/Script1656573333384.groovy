@@ -26,23 +26,31 @@ Vérifier que l'utilisateur a un task quand on ajoute la phase
 Vérifier que le task diminue quand l'utilisateur a fini son task
 Vérifier qu'on peut soumettre la phase
  */
-
-
 //USERNAME & PASSWORD  - SEPHORA 
 def data_Sephora = TestDataFactory.findTestData('Data Files/Username_Password/Test_Sephora')
-String password_atran = data_Sephora.getValue(2, 1) //R
-String password_marketing = data_Sephora.getValue(2, 2) //R
-String password_iraz = data_Sephora.getValue(2, 5) //R
-String password_lmorel = data_Sephora.getValue(2, 11) //R
+
+String password_atran = data_Sephora.getValue(2, 1 //R
+    )
+
+String password_marketing = data_Sephora.getValue(2, 2 //R
+    )
+
+String password_iraz = data_Sephora.getValue(2, 5 //R
+    )
+
+String password_lmorel = data_Sephora.getValue(2, 11 //R
+    )
 
 //URL
-def data_urlTESTAUTO = TestDataFactory.findTestData("Data Files/URL/URL_testauto")
-String Url_Sephora = data_urlTESTAUTO .getValue(2, 1)
+def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+
+String Url_Sephora = data_urlTESTAUTO.getValue(2, 1)
 
 //READ PROJECT NO FROM TEST CASE 3.01
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.01\\102.01_Sephora_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.01\\102.01_Sephora_refID.txt')
+//D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.01\\102.01_Sephora_ProjectNo.txt
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.01\\102.01_Sephora_ProjectNo.txt')
 
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.01\\102.01_Sephora_refID.txt')
 
 ///////////////////////////////////////TEST START ///////////////////////////////////////
 //BROWSE & MAXIMIZE BROWSER
@@ -262,9 +270,9 @@ WebUI.delay(1)
 'Click on + to add phase'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[4]/div/div[2]/div/div[1]/div[2]/div/a[1]']))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-'Add Phase'
+'88 Add Phase'
 WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_phase"]']), '79', false)
 
 WebUI.delay(1)
@@ -328,8 +336,6 @@ WebUI.verifyMatch(lf1, 'BAG PROD (Printer)', false)
 String color1 = WebUI.getCSSValue(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[7]/a']), 
     'color', FailureHandling.OPTIONAL)
 
-
-
 while (color1 == 'rgba(255, 255, 255, 1)') {
     WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[7]/a']))
 
@@ -385,7 +391,7 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 
 'Approve via extender'
-functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID+ '"]/td[7]/a']))
+functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[7]/a']))
 
 WebUI.delay(1)
 

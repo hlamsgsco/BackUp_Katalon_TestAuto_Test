@@ -54,6 +54,7 @@ String Url_Tag = data_urlTESTAUTO.getValue(2, 3)
 
 
 //CLEAR NOTEPAD
+                        //D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\302.06 Tag_Project_No\\302.06_Tag_ProjectNo.txt
 functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\302.06 Tag_Project\\302.06_Tag_ProjectNo.txt')
 
 functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\302.06 Tag_Project\\302.06_Tag_refID1.txt')

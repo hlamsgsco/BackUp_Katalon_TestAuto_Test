@@ -722,12 +722,12 @@ public class I {
 	//***FUNCTION TO SELECT MULTIPLE LIST
 
 	public static select_multiplelist(String xpath1, String xpath2, String textselected){
-		WebUI.delay(1)
+		WebUI.delay(3)
 		WebUI.selectOptionByValue(findTestObject('1. Constant/xpath',[('xpath'): xpath1]), textselected, false)
 		WebUI.delay(2)
 		WebUI.click(findTestObject('1. Constant/xpath',[('xpath'): xpath2]))
 
-		WebUI.delay(1)
+		WebUI.delay(3)
 
 
 	}

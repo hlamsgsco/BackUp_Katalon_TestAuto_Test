@@ -43,8 +43,8 @@ String Url_Tag = data_urlTESTAUTO.getValue(2, 3)
 
 
 //CLEAR NOTEPAD 11.01 TO USE IN TC 11.02/ 11.03/ 11.04
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_ProjectNo.txt')
-functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_refID.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_ProjectNo.txt')
+functions.I.clearnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_refID.txt')
 
 
 
@@ -190,8 +190,8 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 
 WebUI.delay(1)
 
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_ProjectNo.txt', Project_No)
-functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag_Project_No\\309.01_Tag_refID.txt', refID)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_ProjectNo.txt', Project_No)
+functions.I.writenotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Tag\\309.01 Tag Project_No\\309.01_Tag_refID.txt', refID)
 
 ///////////////////////////////////////WINDOW 1 - SUPER EDIT
 '76admin super edit'

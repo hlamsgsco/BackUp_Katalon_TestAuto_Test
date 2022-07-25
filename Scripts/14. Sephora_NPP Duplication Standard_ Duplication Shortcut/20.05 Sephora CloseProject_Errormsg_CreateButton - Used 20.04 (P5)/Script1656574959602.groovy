@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
-
+//test
 ///////////////////////////DATA FILE:  USERNAME - PASSWORD - URL////////////////////////////////////
 //DATA FILE USERNAME_PASSWORD [SEPHORA]
 def data_Sephora = TestDataFactory.findTestData("Data Files/Username_Password/Test_Sephora")
@@ -27,8 +27,8 @@ String password_atran = data_Sephora .getValue(2, 1) //R
 
 
 //DATA FILE URL [SEPHORA]
-def data_urlRELAUTO = TestDataFactory.findTestData("Data Files/URL/URL_relauto")
-String Url_Sephora = data_urlRELAUTO .getValue(2, 1)
+def data_urlAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+String Url_Sephora = data_urlAUTO .getValue(2, 1)
 
 //READ NOTEPAD
 String Project_No = functions.I.readnotepad('D:\\Upoad_File\\Projet_ Login\\Sephora\\20.01\\20.01_Sephora_ProjectNo.txt')

@@ -405,10 +405,10 @@ functions.I.Logout()
 'Login as ANAISABEL TERRÉSHERNÁNDEZ '
 functions.I.Login_password('aterreshernandez', password_aterreshernandez)
 
-'Screenshot :Login as ANAISABEL TERRÉSHERNÁNDEZ'
-WebUI.takeScreenshot()
+WebUI.delay(3)
 
 //CLICK ON THE SIDE MENU: PROJECTS
+'116'
 WebUI.click(findTestObject('1. Constant/02_LHSMenu_Projects'))
 
 ///SEARCH FOR PROJECT

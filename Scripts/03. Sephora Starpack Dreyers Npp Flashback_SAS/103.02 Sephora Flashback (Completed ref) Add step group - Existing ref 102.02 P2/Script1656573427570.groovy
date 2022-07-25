@@ -36,8 +36,8 @@ def data_urlTESTAUTO = TestDataFactory.findTestData("Data Files/URL/URL_testauto
 String Url_Sephora = data_urlTESTAUTO .getValue(2, 1)
 
 //READ PROJECT NO FROM TEST CASE 3.01
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Sephora\\102.02\\102.02_Sephora_refID.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_ProjectNo.txt')
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Sephora\\102.02\\102.02_Sephora_refID.txt')
 
 //BROWSE & MAXIMIZE BROWSER
 'Navigate to Sephora Test'

@@ -33,23 +33,30 @@ Vérifier que l'utilisateur peut ajouter un phase group du même lifecycle
 Add phase : Vérifier le nombre d'option dans la list est est superieur au nombre qu'on a à la fin du lifecycle
 Add phase group : Vérifier le nombre d'option dans la list est est superieur au nombre qu'on a à la fin du lifecycle
  */
-
 //DATA FILE FOR PASSWORD AND USERNAME
 def data = TestDataFactory.findTestData('Data Files/Username_Password/Test_Starpack')
-String password_suser = data.getValue(2, 1) //R
-String password_aherms = data.getValue(2, 2) //R
 
+String password_suser = data.getValue(2, 1 //R
+    )
+
+String password_aherms = data.getValue(2, 2 //R
+    )
 
 //DATA FILE FROM URL
 def data_urlTestAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
+
 String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 
 //READ FROM NOTEPAD
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
-String refID_PS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
-String refID_PTS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
-String refID_TD = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_ProjectNo.txt')
+
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID.txt')
+
+String refID_PS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PS.txt')
+
+String refID_PTS = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_PTS.txt')
+
+String refID_TD = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\StarPack\\202.01 StarPack _Project_No\\202.01_StarPack_refID_TD.txt')
 
 //////////////////////////////////////////////////////////////TEST START /////////////////////////////////////
 'Navigate to URL StarpackTest'
@@ -72,9 +79,9 @@ functions.I.SearchProjectNo_xpath(Project_No, '//*[@id="keynum_project"]', '//*[
 'Screenshot:  Project list page'
 WebUI.takeScreenshot()
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-'search for ref'
+'19. search for ref'
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="fiche_filter_keywords11"]']), 'PTS')
 
 'Screenshot: ref list page'
@@ -119,9 +126,11 @@ WebUI.delay(1)
 functions.I.Pagedown()
 
 'Verify if phase group is added'
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[4]/div/div[1]', 'PTS')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[4]/div/div[1]', 
+    'PTS')
 
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[5]/div/div[1]/div[1]', 'PTS Approval')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[5]/div/div[1]/div[1]', 
+    'PTS Approval')
 
 'Screenshot: Lifecycle tab'
 WebUI.takeScreenshot()
@@ -132,9 +141,11 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 WebUI.delay(1)
 
 int Entries1 = WebUI.getNumberOfTotalOption(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_phase"]']))
+
 WebUI.verifyEqual(Entries1, 4)
 
 int Entries2 = WebUI.getNumberOfTotalOption(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_grp_phase"]']))
+
 WebUI.verifyEqual(Entries2, 2)
 
 'Add Phase'
@@ -151,9 +162,11 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 
 'Verify match'
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[5]/div/div[1]', 'Complete PTS')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[5]/div/div[1]', 
+    'Complete PTS')
 
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[6]/div/div[1]/div[1]', 'PTS Approval')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[6]/div/div[1]/div[1]', 
+    'PTS Approval')
 
 'Click on delete'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[6]/div/div[1]/div[2]/div/a[2]']))
@@ -176,13 +189,10 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 
 int Entries3 = WebUI.getNumberOfTotalOption(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_phase"]']))
 
-
 int Entries4 = WebUI.getNumberOfTotalOption(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_grp_phase"]']))
 
-
 'Select Phase'
-functions.I.SelectFromList_Value( '//*[@id="added_grp_phase"]', '6')
-
+functions.I.SelectFromList_Value('//*[@id="added_grp_phase"]', '6')
 
 'Screenshot: popup'
 WebUI.takeScreenshot()
@@ -197,10 +207,12 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 WebUI.takeScreenshot()
 
 'Verify PAF'
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[1]/div/div[1]', 'PAF')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[1]/div/div[1]', 
+    'PAF')
 
 'Verify final artwork'
-functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[2]/div/div[1]', 'Final artworks')
+functions.I.VerifyMatchText('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[2]/div/div[1]', 
+    'Final artworks')
 
 'Logout'
 functions.I.Logout()
@@ -237,7 +249,7 @@ WebUI.delay(1)
 WebUI.takeScreenshot()
 
 'Verify lifecycle status'
-functions.I.VerifyMatchText( '//*[@id="source_' + refID_PTS + '"]/td[6]/span[2]', 'Complete PTS')
+functions.I.VerifyMatchText(('//*[@id="source_' + refID_PTS) + '"]/td[6]/span[2]', 'Complete PTS')
 
 'Logout'
 functions.I.Logout()
@@ -264,7 +276,7 @@ WebUI.delay(1)
 WebUI.takeScreenshot()
 
 'Click on ref link'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID_PTS+ '"]/td[4]/a']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID_PTS) + '"]/td[4]/a']))
 
 'Click on lifecycle tab'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_content"]/div[3]/div/ul/li[3]/a']))

@@ -39,11 +39,11 @@ def data_urlTESTAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Dreyer = data_urlTESTAUTO.getValue(2, 4)
 
 //READ FROM NOTEPAD
-String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt')
-String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt')
-String refID_daughter1 = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt')
-String refID_APL = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt')
-String refID_LI = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_ Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt')
+String Project_No = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_ProjectNo.txt')
+String refID = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Design(M).txt')
+String refID_daughter1 = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_Deliverable(D).txt')
+String refID_APL = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_APL(GD).txt')
+String refID_LI = functions.I.readnotepad('D:\\Upoad_File\\zTest_Auto\\Test_Projet_Login\\Dreyers\\410.01\\410.01_Dreyers_refID_LI(GD).txt')
 
 ///////////////////////////// TEST BEGIN ///////////////////////////////////////////////////////////
 'Navigate to URL Dreyers Release'

@@ -28,7 +28,7 @@ IN THIS TESTCASE, IT WILL VERIFY THE PASSWORD OF THE USERS USED IN THE TESTSUITE
 //DATA FILES USERNAME_PASSWORD [STARPACK]
 //def data = TestDataFactory.findTestData('Data Files/Username_Password/Test_Starpack')
 
-def data = TestDataFactory.findTestData('null')
+def data = TestDataFactory.findTestData('Data Files/Username_Password/Test_Starpack')
 
 String password_suser = data.getValue(2, 1)
 String password_aherms =data.getValue(2, 2)
@@ -55,7 +55,7 @@ def data_urlTestAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto
 String Url_Starpack = data_urlTestAUTO.getValue(2, 2)
 */
 def data_urlTestAUTO = TestDataFactory.findTestData('Data Files/URL/URL_testauto')
-String Url_Starpack = data_urlTestAUTO.getValue(2, 7)
+String Url_Starpack = data_urlTestAUTO.getValue(2,2)
 
 //////////////////////////////////////////////////////////////////////TEST START ///////////////////////////////////////////////////
 //BROWSE & MAXIMIZE BROWSER

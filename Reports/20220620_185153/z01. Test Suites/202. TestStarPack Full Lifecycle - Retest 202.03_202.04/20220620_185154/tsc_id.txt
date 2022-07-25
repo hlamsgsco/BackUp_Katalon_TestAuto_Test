@@ -1,1 +1,0 @@
-Test Suites/01. TSC - Chrome/202. TestStarPack Full Lifecycle (TSC)
